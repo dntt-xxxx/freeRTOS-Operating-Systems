@@ -160,7 +160,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 		
-		HAL_Delay(200);
   }
   /* USER CODE END 3 */
 }
@@ -290,9 +289,7 @@ void StartReciver(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-//		uint8_t strRec[]="Task2\n";
 		uint8_t dataRec[50];
-//		HAL_UART_Transmit(&huart1,strRec,strlen((char*)strRec),100);
 		reciveValue=osMessageGet(Queue01Handle,200);
 		sprintf((char*)dataRec, "Task2:			Value received:%d\n ",reciveValue.value.v);
 		HAL_UART_Transmit(&huart1,dataRec,strlen((char*)dataRec),100);
