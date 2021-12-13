@@ -21,12 +21,12 @@
 #include "main.h"
 #include "cmsis_os.h"
 
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "Delay.h"
+#include <stdio.h>
+#include <string.h>
+#include "response.h"
 
-#include "ledHandle.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,7 +44,11 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+UART_HandleTypeDef huart2;
+
 osThreadId Task01Handle;
+osThreadId Task02Handle;
+osSemaphoreId myBinarySem01Handle;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -52,7 +56,9 @@ osThreadId Task01Handle;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-void StartTask01(void const * argument);
+static void MX_USART2_UART_Init(void);
+void StartDefaultTask(void const * argument);
+void StartTask02(void const * argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -60,27 +66,11 @@ void StartTask01(void const * argument);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
-timeHandle time={0,0};
-
-//static int exportFile(timeHandle time){
-//	fileResult=fopen("outPut","w+");
-//	if(fileResult==NULL){
-//		return -1;
-//	}
-//	else{
-//		fprintf(fileResult,"Time1 \tTime2\n");
-//		fprintf(fileResult,"%d\t%d\n",time.timeStartPressBut,time.timeStartLight);
-//		return 1;
-//	}
-//}
-//typedef enum{
-//	READY,
-//	PRESS_BUTTON,
-//	LED
-//}StateBasic;
-//StateBasic state=READY;
-
+int _write(int file, char *ptr, int len)
+{
+HAL_UART_Transmit(&huart2,(uint8_t *)ptr,len,10);
+return len;
+}
 /* USER CODE END 0 */
 
 /**
@@ -99,8 +89,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-	
-	initLed();
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -112,13 +101,19 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+	response_init(&huart2);
   /* USER CODE END 2 */
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
   /* USER CODE END RTOS_MUTEX */
+
+  /* Create the semaphores(s) */
+  /* definition and creation of myBinarySem01 */
+  osSemaphoreDef(myBinarySem01);
+  myBinarySem01Handle = osSemaphoreCreate(osSemaphore(myBinarySem01), 1);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -134,8 +129,12 @@ int main(void)
 
   /* Create the thread(s) */
   /* definition and creation of Task01 */
-  osThreadDef(Task01, StartTask01, osPriorityNormal, 0, 128);
+  osThreadDef(Task01, StartDefaultTask, osPriorityNormal, 0, 128);
   Task01Handle = osThreadCreate(osThread(Task01), NULL);
+
+  /* definition and creation of Task02 */
+  osThreadDef(Task02, StartTask02, osPriorityIdle, 0, 128);
+  Task02Handle = osThreadCreate(osThread(Task02), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -168,13 +167,12 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI_DIV2;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL16;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -195,34 +193,48 @@ void SystemClock_Config(void)
 }
 
 /**
+  * @brief USART2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART2_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART2_Init 0 */
+
+  /* USER CODE END USART2_Init 0 */
+
+  /* USER CODE BEGIN USART2_Init 1 */
+
+  /* USER CODE END USART2_Init 1 */
+  huart2.Instance = USART2;
+  huart2.Init.BaudRate = 115200;
+  huart2.Init.WordLength = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits = UART_STOPBITS_1;
+  huart2.Init.Parity = UART_PARITY_NONE;
+  huart2.Init.Mode = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART2_Init 2 */
+
+  /* USER CODE END USART2_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
   */
 static void MX_GPIO_Init(void)
 {
-//  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
-//  /* GPIO Ports Clock Enable */
-//  __HAL_RCC_GPIOD_CLK_ENABLE();
-//  __HAL_RCC_GPIOA_CLK_ENABLE();
-//  __HAL_RCC_GPIOB_CLK_ENABLE();
-
-//  /*Configure GPIO pin Output Level */
-//  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_RESET);
-
-//  /*Configure GPIO pin : PA9 */
-//  GPIO_InitStruct.Pin = GPIO_PIN_9;
-//  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-//  GPIO_InitStruct.Pull = GPIO_PULLUP;
-//  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-//  /*Configure GPIO pin : PB6 */
-//  GPIO_InitStruct.Pin = GPIO_PIN_6;
-//  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-//  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-//  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-//  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOA_CLK_ENABLE();
 
 }
 
@@ -230,61 +242,58 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartTask01 */
+/* USER CODE BEGIN Header_StartDefaultTask */
 /**
   * @brief  Function implementing the Task01 thread.
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartTask01 */
-void StartTask01(void const * argument)
+/* USER CODE END Header_StartDefaultTask */
+void StartDefaultTask(void const * argument)
 {
+  /* USER CODE BEGIN 5 */
+  /* Infinite loop */
+	uint8_t str[50]="task1 release\n";
   for(;;)
   {
-			time=ledHandle();
-	}
-		/*
-//		if(HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_9)==0){
-//			tickStartPress=get_Tick_us();
-//			state=PRESS_BUTTON;
-//		}
-//		switch(state){
-//			case READY:
-//				break;
-//			case PRESS_BUTTON:
-//				GPIOB->BSRR = GPIO_PIN_6;
-//				state=LED;
-//				break;
-//			case LED:
-//				tickLed=get_Tick_us();
-//				state=READY;
-//				break;
-//			default:
-//				break;
-		*/
+		osSemaphoreRelease(myBinarySem01Handle);
+		res_print("%d %s",HAL_GetTick(),str);
+    osDelay(4000);
 		
+		
+  }
   /* USER CODE END 5 */
 }
 
+/* USER CODE BEGIN Header_StartTask02 */
 /**
-  * @brief  Period elapsed callback in non blocking mode
-  * @note   This function is called  when TIM4 interrupt took place, inside
-  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
-  * a global variable "uwTick" used as application time base.
-  * @param  htim : TIM handle
-  * @retval None
-  */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+* @brief Function implementing the Task02 thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartTask02 */
+void StartTask02(void const * argument)
 {
-  /* USER CODE BEGIN Callback 0 */
-
-  /* USER CODE END Callback 0 */
-  if (htim->Instance == TIM4) {
-    HAL_IncTick();
+  /* USER CODE BEGIN StartTask02 */
+  /* Infinite loop */
+	
+	
+  for(;;)
+  {
+		uint32_t stt=osSemaphoreWait(myBinarySem01Handle,2000);
+		if(stt==0)
+		{
+			//
+			uint8_t str1[50]="task2 wait\n";
+			res_print("%d %d %s",HAL_GetTick(),stt,str1);
+		}
+		else if(stt==255)
+		{
+			uint8_t str1[50]="task2 osErrorOS\n";
+			res_print("%d %d %s",HAL_GetTick(),stt,str1);
+		}
   }
-  /* USER CODE BEGIN Callback 1 */
-
-  /* USER CODE END Callback 1 */
+  /* USER CODE END StartTask02 */
 }
 
 /**
