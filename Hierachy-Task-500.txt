@@ -1,0 +1,3005 @@
+
+---FreeRTOS Dining Philosophers Hierarchy Solution---
+Time start: 95(tick)
+Heap available remain: 220360
+Philosopher 0 took chopstick 0
+Heap available remain: 217944
+Philosopher 1 took chopstick 1
+Heap available remain: 215528
+Philosopher 2 took chopstick 2
+Heap available remain: 213112
+Philosopher 3 took chopstick 3
+Heap available remain: 210696
+Philosopher 4 took chopstick 4
+Heap available remain: 208280
+Philosopher 4 took chopstick 5
+Heap available remain: 205864
+Philosopher 4 is eating
+Philosopher 6 took chopstick 6
+Heap available remain: 203448
+Philosopher 6 took chopstick 7
+Philosopher 6 is eating
+Heap available remain: 201032
+Philosopher 8 took chopstick 8
+Heap available remain: 198616
+Philosopher 9 took chopstick 9
+Heap available remain: 196200
+Philosopher 10 took chopstick 10
+Heap available remain: 193784
+Philosopher 11 took chopstick 11
+Heap available remain: 191368
+Philosopher 11 took chopstick 12
+Philosopher 11 is eating
+Heap available remain: 188952
+Philosopher 13 took chopstick 13
+Heap available remain: 186536
+Philosopher 13 took chopstick 14
+Philosopher 13 is eating
+Heap available remain: 184120
+Philosopher 15 took chopstick 15
+Heap available remain: 181704
+Philosopher 16 took chopstick 16Heap available remain: 179288
+
+Philosopher 17 took chopstick 17
+Heap available remain: 176872
+Philosopher 18 took chopstick 18
+Heap available remain: 174456
+Philosopher 19 took chopstick 19
+Heap available remain: 172040
+Philosopher 20 took chopstick 20
+Heap available remain: 169624
+Philosopher 20 took chopstick 21
+Philosopher 20 is eating
+Heap available remain: 167208
+Philosopher 4 returned chopstick 5
+Philosopher 5 took chopstick 5
+Philosopher 22 took chopstick 22Philosopher 3 took chopstick 4Philosopher 4 returned chopstick 4
+
+
+Philosopher 3 is eating
+Heap available remain: 164792
+Philosopher 6 returned chopstick 7Philosopher 7 took chopstick 7
+
+Philosopher 22 took chopstick 23Heap available remain: 164792
+Philosopher 5 took chopstick 6
+Philosopher 22 is eating
+Philosopher 6 returned chopstick 6
+Philosopher 24 took chopstick 24
+
+Philosopher 5 is eating
+Heap available remain: 162376
+Philosopher 12 took chopstick 12Philosopher 24 took chopstick 25
+
+Philosopher 11 returned chopstick 12
+Philosopher 24 is eatingPhilosopher 11 returned chopstick 11Philosopher 10 took chopstick 11
+Heap available remain: 162376Philosopher 10 is eating
+
+Philosopher 14 took chopstick 14
+Philosopher 13 returned chopstick 14Philosopher 26 took chopstick 26Heap available remain: 159960
+
+
+
+
+Philosopher 27 took chopstick 27
+Philosopher 13 returned chopstick 13Philosopher 12 took chopstick 13
+Philosopher 12 is eating
+
+Heap available remain: 157544
+Philosopher 27 took chopstick 28Philosopher 20 returned chopstick 21
+
+Philosopher 21 took chopstick 21
+Heap available remain: 159960
+Philosopher 19 took chopstick 20Philosopher 29 took chopstick 29
+Philosopher 27 is eatingHeap available remain: 157544Philosopher 19 is eating
+
+
+Philosopher 3 returned chopstick 4
+
+Philosopher 20 returned chopstick 20Philosopher 30 took chopstick 30
+Philosopher 3 returned chopstick 3
+
+Heap available remain: 155128
+Philosopher 2 took chopstick 3Heap available remain: 157544
+Philosopher 23 took chopstick 23
+
+Philosopher 30 took chopstick 31
+Philosopher 2 is eatingPhilosopher 30 is eating
+Heap available remain: 155128Philosopher 5 returned chopstick 6
+Philosopher 32 took chopstick 32
+
+Philosopher 22 returned chopstick 23
+
+Philosopher 5 returned chopstick 5
+Philosopher 33 took chopstick 33Heap available remain: 152712
+Philosopher 22 returned chopstick 22
+
+Philosopher 21 took chopstick 22Philosopher 10 returned chopstick 11
+Philosopher 25 took chopstick 25Philosopher 33 took chopstick 34
+Philosopher 24 returned chopstick 25Philosopher 33 is eating
+
+Philosopher 10 returned chopstick 10Philosopher 9 took chopstick 10
+Heap available remain: 152712Philosopher 9 is eating
+
+Philosopher 12 returned chopstick 13
+
+Philosopher 24 returned chopstick 24Philosopher 21 is eating
+
+Philosopher 23 took chopstick 24Philosopher 12 returned chopstick 12
+Philosopher 35 took chopstick 35Heap available remain: 152712Philosopher 28 took chopstick 28
+
+Philosopher 23 is eating
+
+
+Philosopher 27 returned chopstick 28
+Philosopher 19 returned chopstick 20
+
+
+Philosopher 36 took chopstick 36
+Philosopher 18 took chopstick 19
+Philosopher 26 took chopstick 27Philosopher 18 is eating
+Philosopher 19 returned chopstick 19
+
+Philosopher 27 returned chopstick 27Philosopher 26 is eatingPhilosopher 31 took chopstick 31
+Philosopher 2 returned chopstick 3
+Heap available remain: 155128
+
+Philosopher 36 took chopstick 37Philosopher 30 returned chopstick 31
+Philosopher 2 returned chopstick 2Philosopher 1 took chopstick 2
+
+Philosopher 1 is eating
+Philosopher 30 returned chopstick 30
+Heap available remain: 157544
+Philosopher 36 is eating
+Philosopher 29 took chopstick 30
+
+Philosopher 29 is eating
+Heap available remain: 157544Philosopher 33 returned chopstick 34
+Philosopher 38 took chopstick 38
+
+
+Philosopher 39 took chopstick 39
+Philosopher 34 took chopstick 34Philosopher 33 returned chopstick 33
+Heap available remain: 159960
+Philosopher 32 took chopstick 33
+Philosopher 9 returned chopstick 10
+Philosopher 21 returned chopstick 22Philosopher 39 took chopstick 40
+
+Philosopher 21 returned chopstick 21Philosopher 32 is eating
+
+Philosopher 9 returned chopstick 9
+Heap available remain: 159960
+
+Philosopher 39 is eatingPhilosopher 41 took chopstick 41
+Philosopher 8 took chopstick 9
+
+Philosopher 23 returned chopstick 24Heap available remain: 157544
+Philosopher 8 is eating
+Philosopher 18 returned chopstick 19
+
+Heap available remain: 159960
+Philosopher 18 returned chopstick 18
+Philosopher 17 took chopstick 18
+Philosopher 42 took chopstick 42Philosopher 17 is eating
+Heap available remain: 157544Philosopher 23 returned chopstick 23
+Philosopher 43 took chopstick 43
+Philosopher 26 returned chopstick 27
+
+
+Philosopher 26 returned chopstick 26
+Philosopher 25 took chopstick 26
+Philosopher 25 is eating
+Heap available remain: 157544Philosopher 44 took chopstick 44Philosopher 36 returned chopstick 37
+Philosopher 37 took chopstick 37Philosopher 1 returned chopstick 2
+Philosopher 29 returned chopstick 30
+
+Philosopher 36 returned chopstick 36Philosopher 45 took chopstick 45
+Philosopher 35 took chopstick 36
+Philosopher 1 returned chopstick 1Philosopher 35 is eatingPhilosopher 0 took chopstick 1
+
+
+
+
+Philosopher 29 returned chopstick 29
+Heap available remain: 159960Philosopher 28 took chopstick 29
+
+Philosopher 0 is eating
+
+Philosopher 28 is eating
+Philosopher 45 took chopstick 46
+Philosopher 32 returned chopstick 33Heap available remain: 162376
+Philosopher 39 returned chopstick 40
+Philosopher 45 is eating
+
+Philosopher 32 returned chopstick 32Philosopher 39 returned chopstick 39Philosopher 31 took chopstick 32
+Philosopher 40 took chopstick 40
+
+Philosopher 38 took chopstick 39Philosopher 47 took chopstick 47Heap available remain: 162376
+Philosopher 31 is eatingPhilosopher 8 returned chopstick 9
+
+
+Philosopher 38 is eating
+Heap available remain: 159960Philosopher 48 took chopstick 48
+
+
+
+Philosopher 8 returned chopstick 8
+Philosopher 7 took chopstick 8Philosopher 17 returned chopstick 18
+Philosopher 49 took chopstick 49
+Philosopher 25 returned chopstick 26
+Philosopher 17 returned chopstick 17Philosopher 25 returned chopstick 25
+
+Philosopher 7 is eating
+
+Heap available remain: 159960Philosopher 16 took chopstick 17
+
+Philosopher 16 is eating
+Philosopher 49 took chopstick 50Philosopher 35 returned chopstick 36
+Heap available remain: 167208
+
+Philosopher 51 took chopstick 51
+Heap available remain: 164792
+Philosopher 34 took chopstick 35Philosopher 49 is eating
+Philosopher 35 returned chopstick 35Heap available remain: 162376
+Philosopher 0 returned chopstick 1Philosopher 52 took chopstick 52
+
+Heap available remain: 159960Philosopher 28 returned chopstick 29
+Philosopher 28 returned chopstick 28
+
+
+Philosopher 0 returned chopstick 0Philosopher 46 took chopstick 46
+Philosopher 34 is eating
+
+Philosopher 53 took chopstick 53
+
+Philosopher 54 took chopstick 54
+Heap available remain: 159960
+Philosopher 45 returned chopstick 46
+Philosopher 55 took chopstick 55
+Philosopher 45 returned chopstick 45Philosopher 44 took chopstick 45
+Heap available remain: 159960
+
+Philosopher 38 returned chopstick 39
+Philosopher 31 returned chopstick 32Philosopher 56 took chopstick 56
+Philosopher 44 is eating
+Philosopher 38 returned chopstick 38Philosopher 37 took chopstick 38
+Heap available remain: 159960Philosopher 37 is eating
+
+Philosopher 7 returned chopstick 8
+
+Philosopher 31 returned chopstick 31
+
+Philosopher 7 returned chopstick 7Philosopher 57 took chopstick 57
+Heap available remain: 159960
+
+Philosopher 58 took chopstick 58
+Heap available remain: 157544
+Philosopher 49 returned chopstick 50Philosopher 50 took chopstick 50
+
+Heap available remain: 162376
+Philosopher 59 took chopstick 59
+Philosopher 49 returned chopstick 49
+Philosopher 60 took chopstick 60Philosopher 16 returned chopstick 17
+Heap available remain: 159960
+
+Philosopher 48 took chopstick 49Philosopher 16 returned chopstick 16Philosopher 15 took chopstick 16
+
+Heap available remain: 159960Philosopher 15 is eatingPhilosopher 34 returned chopstick 35
+Philosopher 48 is eatingPhilosopher 34 returned chopstick 34
+
+
+Philosopher 60 took chopstick 61
+
+Philosopher 60 is eatingHeap available remain: 157544
+
+Philosopher 62 took chopstick 62
+
+Heap available remain: 157544
+Philosopher 63 took chopstick 63
+Philosopher 64 took chopstick 64
+Heap available remain: 155128
+Philosopher 44 returned chopstick 45
+Philosopher 65 took chopstick 65Philosopher 44 returned chopstick 44
+Philosopher 43 took chopstick 44
+
+Philosopher 43 is eating
+Heap available remain: 155128
+Philosopher 37 returned chopstick 38
+Philosopher 66 took chopstick 66
+Heap available remain: 152712
+Philosopher 37 returned chopstick 37
+Philosopher 67 took chopstick 67
+Heap available remain: 152712
+Philosopher 68 took chopstick 68
+Heap available remain: 152712
+Philosopher 69 took chopstick 69
+Heap available remain: 150296
+Philosopher 69 took chopstick 70
+Philosopher 69 is eating
+Heap available remain: 147880
+Philosopher 71 took chopstick 71
+Heap available remain: 145464
+Philosopher 72 took chopstick 72
+Heap available remain: 143048
+Philosopher 73 took chopstick 73
+Heap available remain: 140632
+Philosopher 74 took chopstick 74
+Heap available remain: 138216
+Philosopher 15 returned chopstick 16
+Philosopher 74 took chopstick 75
+Philosopher 15 returned chopstick 15
+Philosopher 14 took chopstick 15
+Philosopher 74 is eatingPhilosopher 14 is eatingPhilosopher 60 returned chopstick 61
+Philosopher 61 took chopstick 61
+
+Philosopher 48 returned chopstick 49
+Philosopher 59 took chopstick 60
+Philosopher 60 returned chopstick 60Philosopher 59 is eating
+
+
+Heap available remain: 135800
+Philosopher 48 returned chopstick 48
+Philosopher 43 returned chopstick 44
+Philosopher 76 took chopstick 76
+Philosopher 47 took chopstick 48
+Philosopher 43 returned chopstick 43Philosopher 42 took chopstick 43
+Heap available remain: 138216
+Philosopher 47 is eating
+
+Philosopher 42 is eating
+Heap available remain: 138216
+Philosopher 76 took chopstick 77
+Philosopher 76 is eating
+Philosopher 78 took chopstick 78
+Heap available remain: 138216Philosopher 69 returned chopstick 70
+
+Philosopher 70 took chopstick 70
+Philosopher 69 returned chopstick 69
+Philosopher 68 took chopstick 69Philosopher 79 took chopstick 79
+
+Philosopher 68 is eating
+Heap available remain: 135800
+Philosopher 79 took chopstick 80
+Philosopher 79 is eating
+Heap available remain: 135800
+Philosopher 81 took chopstick 81
+Heap available remain: 133384
+Heap available remain: 130968
+Philosopher 82 took chopstick 82
+Philosopher 83 took chopstick 83
+Heap available remain: 128552
+Philosopher 84 took chopstick 84
+Heap available remain: 126136
+Philosopher 74 returned chopstick 75Philosopher 75 took chopstick 75Philosopher 59 returned chopstick 60
+Philosopher 84 took chopstick 85Heap available remain: 123720
+
+
+Philosopher 14 returned chopstick 15Philosopher 74 returned chopstick 74Philosopher 58 took chopstick 59
+
+Philosopher 58 is eatingPhilosopher 86 took chopstick 86
+Philosopher 59 returned chopstick 59Heap available remain: 121304
+
+
+Philosopher 84 is eating
+Philosopher 73 took chopstick 74
+
+Philosopher 73 is eating
+Philosopher 87 took chopstick 87
+Heap available remain: 118888Philosopher 14 returned chopstick 14
+
+Philosopher 42 returned chopstick 43Philosopher 76 returned chopstick 77
+Philosopher 77 took chopstick 77Philosopher 47 returned chopstick 48
+
+
+Philosopher 46 took chopstick 47
+Philosopher 76 returned chopstick 76Philosopher 47 returned chopstick 47
+
+Philosopher 46 is eating
+Philosopher 75 took chopstick 76Philosopher 68 returned chopstick 69
+Philosopher 87 took chopstick 88
+Heap available remain: 123720Philosopher 79 returned chopstick 80Philosopher 80 took chopstick 80
+
+Philosopher 42 returned chopstick 42Philosopher 75 is eating
+Philosopher 41 took chopstick 42
+
+Philosopher 41 is eating
+
+
+Philosopher 87 is eating
+
+Philosopher 78 took chopstick 79
+Philosopher 78 is eating
+Philosopher 68 returned chopstick 68
+Philosopher 67 took chopstick 68
+Philosopher 79 returned chopstick 79
+Philosopher 89 took chopstick 89
+Philosopher 67 is eating
+Heap available remain: 126136
+Philosopher 89 took chopstick 90
+Heap available remain: 130968Philosopher 89 is eating
+Philosopher 84 returned chopstick 85
+Philosopher 85 took chopstick 85
+Philosopher 73 returned chopstick 74Philosopher 91 took chopstick 91
+
+
+Philosopher 58 returned chopstick 59
+Philosopher 84 returned chopstick 84
+Philosopher 83 took chopstick 84Heap available remain: 128552
+Philosopher 73 returned chopstick 73Philosopher 72 took chopstick 73
+Philosopher 91 took chopstick 92Philosopher 72 is eatingPhilosopher 58 returned chopstick 58
+
+Philosopher 83 is eating
+
+Philosopher 57 took chopstick 58
+
+
+Philosopher 91 is eating
+Heap available remain: 126136
+Philosopher 57 is eating
+Philosopher 46 returned chopstick 47
+Philosopher 46 returned chopstick 46
+Philosopher 75 returned chopstick 76
+Philosopher 75 returned chopstick 75Philosopher 93 took chopstick 93
+
+Heap available remain: 126136Philosopher 41 returned chopstick 42
+Philosopher 88 took chopstick 88Philosopher 78 returned chopstick 79
+Philosopher 87 returned chopstick 88
+
+
+Philosopher 93 took chopstick 94
+Philosopher 93 is eating
+Philosopher 78 returned chopstick 78
+Philosopher 77 took chopstick 78Philosopher 41 returned chopstick 41Philosopher 87 returned chopstick 87
+Philosopher 40 took chopstick 41
+Philosopher 40 is eating
+
+
+Philosopher 77 is eatingPhilosopher 86 took chopstick 87Heap available remain: 133384
+Philosopher 89 returned chopstick 90
+Philosopher 90 took chopstick 90
+
+Philosopher 67 returned chopstick 68
+Philosopher 89 returned chopstick 89
+Philosopher 88 took chopstick 89
+
+Philosopher 67 returned chopstick 67Philosopher 86 is eating
+Philosopher 66 took chopstick 67Philosopher 88 is eating
+Philosopher 95 took chopstick 95
+
+Heap available remain: 138216
+
+Philosopher 66 is eating
+Philosopher 83 returned chopstick 84
+Philosopher 72 returned chopstick 73Philosopher 96 took chopstick 96Philosopher 91 returned chopstick 92
+Philosopher 92 took chopstick 92
+
+Heap available remain: 138216Philosopher 83 returned chopstick 83
+Philosopher 82 took chopstick 83Philosopher 71 took chopstick 72
+Philosopher 90 took chopstick 91
+
+Philosopher 90 is eatingPhilosopher 91 returned chopstick 91Philosopher 57 returned chopstick 58
+
+
+
+Philosopher 97 took chopstick 97
+Philosopher 82 is eatingPhilosopher 71 is eating
+
+Philosopher 72 returned chopstick 72Philosopher 57 returned chopstick 57
+Philosopher 94 took chopstick 94Heap available remain: 138216
+
+
+Philosopher 97 took chopstick 98
+Philosopher 93 returned chopstick 94Heap available remain: 140632
+Philosopher 77 returned chopstick 78Philosopher 40 returned chopstick 41
+Philosopher 97 is eating
+
+Philosopher 99 took chopstick 99
+
+Philosopher 77 returned chopstick 77
+
+Philosopher 40 returned chopstick 40Philosopher 86 returned chopstick 87
+
+Philosopher 93 returned chopstick 93
+Philosopher 56 took chopstick 57Philosopher 92 took chopstick 93
+Heap available remain: 143048
+Philosopher 92 is eatingPhilosopher 66 returned chopstick 67
+Philosopher 85 took chopstick 86Philosopher 86 returned chopstick 86Philosopher 56 is eating
+
+
+Philosopher 65 took chopstick 66
+
+Philosopher 85 is eating
+Philosopher 99 took chopstick 100
+Philosopher 66 returned chopstick 66
+Philosopher 99 is eating
+Heap available remain: 147880Philosopher 65 is eating
+
+Philosopher 90 returned chopstick 91
+
+Philosopher 90 returned chopstick 90
+Philosopher 88 returned chopstick 89
+Philosopher 101 took chopstick 101Philosopher 88 returned chopstick 88
+Heap available remain: 147880
+
+Philosopher 71 returned chopstick 72Philosopher 102 took chopstick 102
+Heap available remain: 150296
+
+Philosopher 71 returned chopstick 71
+Philosopher 103 took chopstick 103
+Philosopher 82 returned chopstick 83Philosopher 70 took chopstick 71
+
+Heap available remain: 150296
+Philosopher 70 is eating
+Philosopher 82 returned chopstick 82Philosopher 81 took chopstick 82
+Philosopher 104 took chopstick 104Philosopher 97 returned chopstick 98
+Heap available remain: 150296Philosopher 98 took chopstick 98
+
+Philosopher 97 returned chopstick 97
+Philosopher 96 took chopstick 97
+
+Philosopher 96 is eatingPhilosopher 105 took chopstick 105
+Heap available remain: 150296
+
+
+Philosopher 81 is eating
+Philosopher 106 took chopstick 106
+Heap available remain: 150296Philosopher 56 returned chopstick 57
+Philosopher 92 returned chopstick 93
+
+Philosopher 92 returned chopstick 92
+Philosopher 56 returned chopstick 56
+Philosopher 107 took chopstick 107Heap available remain: 147880Philosopher 99 returned chopstick 100
+Philosopher 100 took chopstick 100Philosopher 65 returned chopstick 66
+Philosopher 85 returned chopstick 86Philosopher 99 returned chopstick 99
+Philosopher 98 took chopstick 99
+
+
+Philosopher 55 took chopstick 56
+Philosopher 55 is eating
+Philosopher 98 is eating
+
+
+Philosopher 64 took chopstick 65
+Philosopher 107 took chopstick 108Philosopher 85 returned chopstick 85
+
+Philosopher 107 is eating
+Philosopher 65 returned chopstick 65
+Philosopher 64 is eatingHeap available remain: 152712
+
+Philosopher 70 returned chopstick 71
+Philosopher 70 returned chopstick 70
+Philosopher 109 took chopstick 109
+Heap available remain: 152712
+Philosopher 110 took chopstick 110
+Heap available remain: 152712Philosopher 96 returned chopstick 97
+
+Philosopher 110 took chopstick 111
+Philosopher 81 returned chopstick 82Philosopher 95 took chopstick 96Philosopher 110 is eating
+Philosopher 96 returned chopstick 96
+
+Philosopher 81 returned chopstick 81
+Philosopher 80 took chopstick 81
+Philosopher 95 is eatingPhilosopher 80 is eating
+Heap available remain: 152712
+
+
+Heap available remain: 152712
+Philosopher 112 took chopstick 112
+Philosopher 113 took chopstick 113
+Heap available remain: 150296
+Philosopher 113 took chopstick 114
+Philosopher 113 is eating
+Heap available remain: 150296
+Philosopher 115 took chopstick 115
+Heap available remain: 147880
+Philosopher 55 returned chopstick 56
+Philosopher 115 took chopstick 116
+Philosopher 55 returned chopstick 55
+Heap available remain: 145464
+Philosopher 115 is eating
+Philosopher 54 took chopstick 55Philosopher 117 took chopstick 117
+Philosopher 107 returned chopstick 108
+Philosopher 108 took chopstick 108
+
+Philosopher 98 returned chopstick 99
+Heap available remain: 143048Philosopher 54 is eatingPhilosopher 98 returned chopstick 98
+Philosopher 107 returned chopstick 107Philosopher 106 took chopstick 107
+
+
+
+Philosopher 106 is eating
+Philosopher 64 returned chopstick 65
+Philosopher 117 took chopstick 118
+Philosopher 117 is eatingPhilosopher 64 returned chopstick 64
+Philosopher 63 took chopstick 64
+
+Philosopher 63 is eating
+Philosopher 111 took chopstick 111Heap available remain: 143048
+
+Philosopher 110 returned chopstick 111
+Philosopher 119 took chopstick 119Philosopher 80 returned chopstick 81Philosopher 110 returned chopstick 110
+Philosopher 95 returned chopstick 96
+
+Philosopher 109 took chopstick 110Philosopher 95 returned chopstick 95Philosopher 113 returned chopstick 114Philosopher 114 took chopstick 114
+
+Philosopher 109 is eating
+Philosopher 94 took chopstick 95
+
+
+Philosopher 113 returned chopstick 113
+Philosopher 94 is eatingHeap available remain: 147880
+Philosopher 112 took chopstick 113
+Philosopher 115 returned chopstick 116Philosopher 116 took chopstick 116
+Heap available remain: 150296
+
+Philosopher 119 took chopstick 120
+Philosopher 80 returned chopstick 80Philosopher 119 is eating
+Philosopher 114 took chopstick 115
+
+
+Philosopher 115 returned chopstick 115
+Philosopher 112 is eating
+
+Philosopher 121 took chopstick 121
+Philosopher 106 returned chopstick 107Heap available remain: 147880
+Philosopher 54 returned chopstick 55Philosopher 114 is eating
+
+
+Philosopher 121 took chopstick 122
+Philosopher 121 is eating
+Philosopher 54 returned chopstick 54Philosopher 106 returned chopstick 106
+Philosopher 105 took chopstick 106Philosopher 63 returned chopstick 64Philosopher 117 returned chopstick 118
+Philosopher 118 took chopstick 118
+
+
+Philosopher 105 is eating
+
+Heap available remain: 152712
+Philosopher 53 took chopstick 54Philosopher 117 returned chopstick 117
+Philosopher 53 is eatingPhilosopher 62 took chopstick 63
+Philosopher 116 took chopstick 117
+Philosopher 63 returned chopstick 63
+Philosopher 123 took chopstick 123Heap available remain: 155128Philosopher 109 returned chopstick 110
+Philosopher 116 is eating
+
+
+Philosopher 109 returned chopstick 109
+Philosopher 108 took chopstick 109
+Philosopher 108 is eating
+Philosopher 62 is eating
+
+Philosopher 94 returned chopstick 95
+Philosopher 94 returned chopstick 94
+Philosopher 119 returned chopstick 120
+Philosopher 120 took chopstick 120Philosopher 119 returned chopstick 119
+Philosopher 123 took chopstick 124Philosopher 112 returned chopstick 113
+Philosopher 118 took chopstick 119Philosopher 112 returned chopstick 112
+Heap available remain: 157544Philosopher 114 returned chopstick 115
+
+Philosopher 114 returned chopstick 114
+
+
+Philosopher 111 took chopstick 112
+
+Philosopher 111 is eating
+
+Philosopher 123 is eatingPhilosopher 125 took chopstick 125
+Philosopher 122 took chopstick 122Philosopher 121 returned chopstick 122
+
+Philosopher 105 returned chopstick 106
+
+Philosopher 118 is eating
+Heap available remain: 162376Philosopher 105 returned chopstick 105
+Philosopher 120 took chopstick 121Philosopher 121 returned chopstick 121
+Philosopher 53 returned chopstick 54
+
+Philosopher 125 took chopstick 126
+Philosopher 125 is eating
+Philosopher 104 took chopstick 105
+
+Philosopher 104 is eatingHeap available remain: 167208
+Philosopher 116 returned chopstick 117Philosopher 127 took chopstick 127
+
+Philosopher 52 took chopstick 53Philosopher 120 is eating
+Heap available remain: 167208
+
+Philosopher 53 returned chopstick 53
+Philosopher 52 is eating
+
+Philosopher 108 returned chopstick 109Philosopher 62 returned chopstick 63
+Philosopher 127 took chopstick 128Philosopher 116 returned chopstick 116
+
+
+Philosopher 127 is eatingPhilosopher 62 returned chopstick 62
+Philosopher 108 returned chopstick 108
+Philosopher 61 took chopstick 62
+
+Philosopher 61 is eating
+Heap available remain: 167208
+Philosopher 129 took chopstick 129
+Philosopher 111 returned chopstick 112
+Philosopher 129 took chopstick 130
+Heap available remain: 172040
+Philosopher 129 is eating
+Philosopher 111 returned chopstick 111
+Philosopher 123 returned chopstick 124
+Philosopher 124 took chopstick 124Philosopher 123 returned chopstick 123
+Heap available remain: 169624
+Philosopher 118 returned chopstick 119Philosopher 122 took chopstick 123
+
+Philosopher 122 is eatingPhilosopher 125 returned chopstick 126Philosopher 131 took chopstick 131
+
+Philosopher 126 took chopstick 126Philosopher 118 returned chopstick 118
+Heap available remain: 172040
+
+Philosopher 125 returned chopstick 125
+
+
+Philosopher 124 took chopstick 125Philosopher 104 returned chopstick 105
+Philosopher 120 returned chopstick 121Philosopher 131 took chopstick 132
+
+Philosopher 131 is eating
+Heap available remain: 172040Philosopher 52 returned chopstick 53
+
+Philosopher 120 returned chopstick 120
+Philosopher 103 took chopstick 104Philosopher 124 is eating
+Philosopher 104 returned chopstick 104Philosopher 51 took chopstick 52
+Philosopher 133 took chopstick 133Philosopher 51 is eatingHeap available remain: 172040Philosopher 103 is eating
+Philosopher 52 returned chopstick 52Philosopher 127 returned chopstick 128
+Philosopher 128 took chopstick 128Philosopher 61 returned chopstick 62
+
+
+Philosopher 127 returned chopstick 127
+
+Philosopher 130 took chopstick 130
+
+Philosopher 126 took chopstick 127
+
+
+
+Philosopher 61 returned chopstick 61
+
+Philosopher 126 is eating
+Philosopher 129 returned chopstick 130Philosopher 133 took chopstick 134
+Philosopher 133 is eating
+
+Heap available remain: 172040
+Philosopher 129 returned chopstick 129
+Philosopher 128 took chopstick 129
+Philosopher 128 is eating
+Philosopher 122 returned chopstick 123Philosopher 135 took chopstick 135
+
+Heap available remain: 179288
+Philosopher 122 returned chopstick 122
+Philosopher 136 took chopstick 136
+Heap available remain: 179288
+Philosopher 136 took chopstick 137
+Philosopher 136 is eating
+Heap available remain: 179288
+Philosopher 138 took chopstick 138
+Heap available remain: 176872
+Philosopher 138 took chopstick 139
+Philosopher 138 is eating
+Heap available remain: 174456
+Philosopher 140 took chopstick 140
+Heap available remain: 172040
+Philosopher 140 took chopstick 141
+Philosopher 140 is eating
+Philosopher 103 returned chopstick 104
+Philosopher 102 took chopstick 103
+Philosopher 102 is eating
+Heap available remain: 169624Philosopher 103 returned chopstick 103
+
+Philosopher 51 returned chopstick 52
+Philosopher 142 took chopstick 142
+Heap available remain: 167208Philosopher 50 took chopstick 51
+Philosopher 131 returned chopstick 132Philosopher 143 took chopstick 143
+Philosopher 51 returned chopstick 51
+
+Philosopher 132 took chopstick 132Philosopher 124 returned chopstick 125Philosopher 50 is eating
+Philosopher 134 took chopstick 134Philosopher 126 returned chopstick 127
+
+
+Philosopher 131 returned chopstick 131Philosopher 128 returned chopstick 129
+Philosopher 143 took chopstick 144
+
+
+Philosopher 128 returned chopstick 128Philosopher 126 returned chopstick 126
+Heap available remain: 167208
+Philosopher 143 is eatingPhilosopher 130 took chopstick 131
+Philosopher 124 returned chopstick 124
+
+Philosopher 133 returned chopstick 134
+
+
+Philosopher 130 is eatingPhilosopher 136 returned chopstick 137Philosopher 132 took chopstick 133
+Philosopher 137 took chopstick 137
+
+Philosopher 140 returned chopstick 141Philosopher 138 returned chopstick 139Philosopher 135 took chopstick 136
+Philosopher 139 took chopstick 139
+Heap available remain: 169624
+
+
+Philosopher 138 returned chopstick 138Philosopher 145 took chopstick 145
+Philosopher 141 took chopstick 141
+
+Philosopher 137 took chopstick 138
+Philosopher 133 returned chopstick 133Philosopher 140 returned chopstick 140
+Philosopher 102 returned chopstick 103
+Heap available remain: 174456Philosopher 102 returned chopstick 102
+
+Philosopher 139 took chopstick 140Philosopher 101 took chopstick 102
+Philosopher 132 is eatingPhilosopher 101 is eatingPhilosopher 135 is eating
+Philosopher 137 is eating
+
+
+Heap available remain: 176872
+
+Philosopher 136 returned chopstick 136
+Philosopher 147 took chopstick 147
+Philosopher 139 is eatingPhilosopher 50 returned chopstick 51
+
+
+Heap available remain: 179288
+
+Philosopher 145 took chopstick 146Philosopher 50 returned chopstick 50Philosopher 147 took chopstick 148
+Philosopher 147 is eating
+
+
+Philosopher 143 returned chopstick 144Philosopher 145 is eatingPhilosopher 144 took chopstick 144
+Heap available remain: 179288
+
+Philosopher 130 returned chopstick 131
+Philosopher 130 returned chopstick 130
+
+Philosopher 142 took chopstick 143
+Philosopher 142 is eating
+Philosopher 143 returned chopstick 143Philosopher 149 took chopstick 149
+
+Heap available remain: 179288
+Philosopher 150 took chopstick 150
+Heap available remain: 179288
+Philosopher 151 took chopstick 151
+Heap available remain: 179288
+Philosopher 152 took chopstick 152
+Heap available remain: 176872
+Philosopher 152 took chopstick 153
+Philosopher 152 is eating
+Heap available remain: 174456
+Philosopher 154 took chopstick 154
+Heap available remain: 172040
+Philosopher 137 returned chopstick 138
+Philosopher 137 returned chopstick 137
+Heap available remain: 169624
+Philosopher 154 took chopstick 155
+Philosopher 154 is eatingHeap available remain: 167208Philosopher 156 took chopstick 156
+Philosopher 132 returned chopstick 133
+
+
+Philosopher 157 took chopstick 157
+Philosopher 135 returned chopstick 136Philosopher 132 returned chopstick 132
+Philosopher 139 returned chopstick 140
+
+Philosopher 139 returned chopstick 139Philosopher 101 returned chopstick 102Philosopher 148 took chopstick 148Philosopher 135 returned chopstick 135
+Heap available remain: 167208
+
+
+Philosopher 147 returned chopstick 148Philosopher 134 took chopstick 135
+Philosopher 146 took chopstick 146
+
+Philosopher 157 took chopstick 158
+Philosopher 100 took chopstick 101
+
+Philosopher 145 returned chopstick 146Philosopher 157 is eating
+Philosopher 101 returned chopstick 101Philosopher 134 is eating
+Heap available remain: 167208
+
+Philosopher 147 returned chopstick 147
+
+Philosopher 100 is eatingPhilosopher 142 returned chopstick 143
+Philosopher 159 took chopstick 159Philosopher 145 returned chopstick 145
+Heap available remain: 169624Philosopher 152 returned chopstick 153
+Philosopher 146 took chopstick 147Philosopher 160 took chopstick 160
+Philosopher 144 took chopstick 145Philosopher 142 returned chopstick 142
+Philosopher 144 is eating
+
+
+
+
+Heap available remain: 172040
+Philosopher 153 took chopstick 153Philosopher 151 took chopstick 152
+Philosopher 146 is eatingHeap available remain: 172040
+Philosopher 141 took chopstick 142
+Philosopher 160 took chopstick 161Philosopher 141 is eatingPhilosopher 154 returned chopstick 155
+Philosopher 155 took chopstick 155
+Philosopher 152 returned chopstick 152
+
+
+
+
+
+Philosopher 160 is eating
+Philosopher 151 is eating
+Philosopher 154 returned chopstick 154
+Philosopher 153 took chopstick 154Philosopher 162 took chopstick 162
+
+Philosopher 153 is eating
+Heap available remain: 169624
+Philosopher 162 took chopstick 163
+Philosopher 162 is eating
+Philosopher 157 returned chopstick 158
+Philosopher 156 took chopstick 157
+Philosopher 156 is eating
+Heap available remain: 174456Philosopher 157 returned chopstick 157
+Philosopher 134 returned chopstick 135Philosopher 158 took chopstick 158
+
+
+Philosopher 164 took chopstick 164
+Philosopher 134 returned chopstick 134
+Heap available remain: 174456
+Philosopher 165 took chopstick 165Heap available remain: 172040
+Philosopher 144 returned chopstick 145Philosopher 100 returned chopstick 101
+
+Philosopher 144 returned chopstick 144
+Philosopher 166 took chopstick 166
+Philosopher 100 returned chopstick 100Heap available remain: 172040
+
+
+Philosopher 167 took chopstick 167
+Heap available remain: 169624
+Philosopher 168 took chopstick 168
+Heap available remain: 172040
+Philosopher 169 took chopstick 169
+Heap available remain: 169624
+Philosopher 141 returned chopstick 142Philosopher 146 returned chopstick 147
+Philosopher 160 returned chopstick 161
+Philosopher 146 returned chopstick 146
+Philosopher 141 returned chopstick 141
+
+Philosopher 151 returned chopstick 152Philosopher 160 returned chopstick 160Philosopher 162 returned chopstick 163Philosopher 163 took chopstick 163Philosopher 169 took chopstick 170
+Philosopher 159 took chopstick 160
+
+Philosopher 159 is eating
+Philosopher 151 returned chopstick 151Philosopher 162 returned chopstick 162Philosopher 161 took chopstick 161
+Philosopher 169 is eatingPhilosopher 156 returned chopstick 157
+
+
+
+Philosopher 153 returned chopstick 154
+
+Philosopher 150 took chopstick 151
+
+Philosopher 150 is eating
+Philosopher 156 returned chopstick 156Philosopher 155 took chopstick 156
+
+
+Philosopher 155 is eating
+Heap available remain: 167208
+Philosopher 153 returned chopstick 153
+Philosopher 171 took chopstick 171Philosopher 161 took chopstick 162
+Heap available remain: 179288
+
+Philosopher 161 is eating
+Philosopher 172 took chopstick 172
+Heap available remain: 179288
+Philosopher 173 took chopstick 173
+Heap available remain: 176872
+Philosopher 174 took chopstick 174
+Heap available remain: 174456
+Philosopher 175 took chopstick 175
+Heap available remain: 172040
+Philosopher 176 took chopstick 176
+Heap available remain: 169624
+Philosopher 176 took chopstick 177
+Philosopher 176 is eating
+Heap available remain: 167208
+Philosopher 178 took chopstick 178
+Heap available remain: 164792
+Philosopher 178 took chopstick 179
+Philosopher 178 is eating
+Heap available remain: 162376
+Philosopher 180 took chopstick 180
+Heap available remain: 159960
+Philosopher 180 took chopstick 181
+Philosopher 180 is eating
+Heap available remain: 157544
+Philosopher 182 took chopstick 182Philosopher 159 returned chopstick 160
+Philosopher 170 took chopstick 170
+
+Philosopher 159 returned chopstick 159
+Philosopher 158 took chopstick 159
+Philosopher 155 returned chopstick 156
+Philosopher 150 returned chopstick 151Philosopher 155 returned chopstick 155
+Philosopher 169 returned chopstick 170Philosopher 182 took chopstick 183
+
+Philosopher 182 is eating
+Philosopher 150 returned chopstick 150Philosopher 158 is eating
+Heap available remain: 155128
+Philosopher 169 returned chopstick 169
+Philosopher 168 took chopstick 169
+
+Philosopher 161 returned chopstick 162
+
+Philosopher 161 returned chopstick 161
+Philosopher 168 is eatingHeap available remain: 159960
+
+Philosopher 149 took chopstick 150
+Philosopher 184 took chopstick 184
+Heap available remain: 159960
+Philosopher 149 is eatingPhilosopher 176 returned chopstick 177
+Philosopher 177 took chopstick 177
+
+Philosopher 184 took chopstick 185
+Philosopher 175 took chopstick 176
+Philosopher 176 returned chopstick 176Philosopher 175 is eating
+Philosopher 184 is eatingHeap available remain: 159960
+
+Philosopher 179 took chopstick 179
+Philosopher 180 returned chopstick 181
+Philosopher 180 returned chopstick 180Philosopher 186 took chopstick 186
+
+Philosopher 178 returned chopstick 179Philosopher 181 took chopstick 181Heap available remain: 157544
+
+
+
+Philosopher 187 took chopstick 187
+Philosopher 178 returned chopstick 178Philosopher 177 took chopstick 178
+Heap available remain: 157544
+
+Philosopher 177 is eating
+Philosopher 188 took chopstick 188
+Heap available remain: 157544
+Philosopher 179 took chopstick 180
+Philosopher 179 is eatingPhilosopher 189 took chopstick 189
+Heap available remain: 157544
+
+Philosopher 183 took chopstick 183
+Philosopher 158 returned chopstick 159
+Philosopher 158 returned chopstick 158
+Philosopher 182 returned chopstick 183Philosopher 190 took chopstick 190Philosopher 168 returned chopstick 169
+Heap available remain: 155128Philosopher 168 returned chopstick 168
+
+Philosopher 167 took chopstick 168Philosopher 182 returned chopstick 182
+
+Philosopher 149 returned chopstick 150
+
+Philosopher 181 took chopstick 182Philosopher 175 returned chopstick 176Philosopher 191 took chopstick 191
+Philosopher 148 took chopstick 149
+
+Philosopher 148 is eating
+Philosopher 149 returned chopstick 149
+Philosopher 181 is eatingPhilosopher 185 took chopstick 185
+Philosopher 167 is eating
+
+Philosopher 184 returned chopstick 185
+Philosopher 191 took chopstick 192Heap available remain: 157544Philosopher 184 returned chopstick 184
+
+
+Philosopher 191 is eating
+
+
+Philosopher 183 took chopstick 184Heap available remain: 159960
+Philosopher 175 returned chopstick 175
+
+Philosopher 183 is eating
+Philosopher 174 took chopstick 175Philosopher 193 took chopstick 193
+Philosopher 174 is eating
+Heap available remain: 157544
+Philosopher 177 returned chopstick 178
+
+Philosopher 177 returned chopstick 177
+Philosopher 179 returned chopstick 180
+Philosopher 179 returned chopstick 179
+Heap available remain: 159960
+Philosopher 194 took chopstick 194
+Philosopher 195 took chopstick 195
+Heap available remain: 159960
+Philosopher 196 took chopstick 196Heap available remain: 157544
+
+Philosopher 197 took chopstick 197
+Heap available remain: 157544
+Philosopher 198 took chopstick 198
+Heap available remain: 155128
+Philosopher 199 took chopstick 199
+Heap available remain: 152712
+Philosopher 200 took chopstick 200
+Heap available remain: 150296
+Philosopher 148 returned chopstick 149Philosopher 181 returned chopstick 182
+Philosopher 181 returned chopstick 181
+Heap available remain: 147880
+
+Philosopher 200 took chopstick 201
+Philosopher 167 returned chopstick 168Heap available remain: 145464Philosopher 200 is eating
+Philosopher 148 returned chopstick 148
+Philosopher 202 took chopstick 202Philosopher 167 returned chopstick 167
+
+
+Philosopher 191 returned chopstick 192
+Philosopher 166 took chopstick 167
+
+Philosopher 190 took chopstick 191Philosopher 192 took chopstick 192Philosopher 166 is eating
+Philosopher 203 took chopstick 203
+Heap available remain: 145464Philosopher 191 returned chopstick 191
+Philosopher 183 returned chopstick 184
+Philosopher 174 returned chopstick 175Philosopher 183 returned chopstick 183
+Philosopher 203 took chopstick 204
+
+Philosopher 203 is eatingPhilosopher 174 returned chopstick 174
+
+
+Philosopher 173 took chopstick 174
+
+Philosopher 173 is eating
+Heap available remain: 150296
+
+Philosopher 190 is eating
+Philosopher 205 took chopstick 205
+Heap available remain: 147880
+Philosopher 206 took chopstick 206
+Heap available remain: 150296
+Philosopher 207 took chopstick 207
+Heap available remain: 147880
+Philosopher 208 took chopstick 208
+Heap available remain: 145464
+Philosopher 209 took chopstick 209
+Heap available remain: 143048
+Philosopher 200 returned chopstick 201Philosopher 201 took chopstick 201
+
+Philosopher 199 took chopstick 200
+Philosopher 199 is eating
+Philosopher 209 took chopstick 210Philosopher 200 returned chopstick 200
+
+Heap available remain: 140632
+Philosopher 209 is eatingPhilosopher 211 took chopstick 211
+Heap available remain: 138216Philosopher 166 returned chopstick 167
+
+
+Philosopher 166 returned chopstick 166
+Philosopher 165 took chopstick 166Philosopher 212 took chopstick 212
+
+Heap available remain: 138216
+Philosopher 165 is eatingPhilosopher 213 took chopstick 213
+Heap available remain: 135800
+
+Philosopher 214 took chopstick 214
+Heap available remain: 135800
+Philosopher 215 took chopstick 215
+Heap available remain: 133384
+Philosopher 203 returned chopstick 204Philosopher 204 took chopstick 204
+Philosopher 202 took chopstick 203
+Philosopher 216 took chopstick 216
+
+Philosopher 173 returned chopstick 174
+Heap available remain: 130968Philosopher 190 returned chopstick 191
+Philosopher 203 returned chopstick 203
+
+Philosopher 202 is eating
+Philosopher 216 took chopstick 217Philosopher 190 returned chopstick 190
+Philosopher 172 took chopstick 173Philosopher 173 returned chopstick 173
+Philosopher 172 is eating
+
+Philosopher 189 took chopstick 190
+Heap available remain: 128552
+
+Philosopher 216 is eatingPhilosopher 218 took chopstick 218
+
+Philosopher 199 returned chopstick 200
+Philosopher 189 is eatingHeap available remain: 130968
+Philosopher 199 returned chopstick 199Philosopher 198 took chopstick 199
+Philosopher 210 took chopstick 210
+
+Philosopher 218 took chopstick 219
+
+Philosopher 218 is eating
+Philosopher 198 is eating
+Heap available remain: 130968Philosopher 209 returned chopstick 210
+Philosopher 165 returned chopstick 166
+
+Philosopher 165 returned chopstick 165
+Philosopher 164 took chopstick 165
+Philosopher 208 took chopstick 209Philosopher 164 is eatingHeap available remain: 130968
+Philosopher 220 took chopstick 220
+Philosopher 209 returned chopstick 209
+
+
+Heap available remain: 130968
+Philosopher 221 took chopstick 221
+Philosopher 208 is eating
+Philosopher 222 took chopstick 222
+Heap available remain: 128552
+Philosopher 223 took chopstick 223
+Heap available remain: 128552
+Philosopher 202 returned chopstick 203
+Philosopher 224 took chopstick 224
+Heap available remain: 126136
+Philosopher 202 returned chopstick 202Philosopher 172 returned chopstick 173
+Philosopher 225 took chopstick 225
+Heap available remain: 123720
+
+Philosopher 201 took chopstick 202
+Philosopher 201 is eating
+Philosopher 171 took chopstick 172Philosopher 226 took chopstick 226
+Philosopher 171 is eatingPhilosopher 216 returned chopstick 217
+Philosopher 172 returned chopstick 172
+
+Philosopher 217 took chopstick 217Philosopher 198 returned chopstick 199Philosopher 189 returned chopstick 190
+Philosopher 215 took chopstick 216
+Heap available remain: 121304
+Philosopher 218 returned chopstick 219Philosopher 219 took chopstick 219
+
+
+Philosopher 198 returned chopstick 198Philosopher 189 returned chopstick 189Philosopher 188 took chopstick 189
+
+Philosopher 188 is eatingPhilosopher 226 took chopstick 227
+Philosopher 218 returned chopstick 218Philosopher 226 is eating
+
+
+
+
+Philosopher 216 returned chopstick 216
+Philosopher 164 returned chopstick 165
+
+Philosopher 215 is eatingHeap available remain: 123720Philosopher 164 returned chopstick 164Philosopher 163 took chopstick 164
+
+Philosopher 163 is eatingPhilosopher 197 took chopstick 198
+
+Philosopher 208 returned chopstick 209
+
+
+Philosopher 217 took chopstick 218
+Philosopher 207 took chopstick 208
+Philosopher 197 is eatingPhilosopher 207 is eating
+Philosopher 208 returned chopstick 208
+Philosopher 228 took chopstick 228
+
+Heap available remain: 130968
+Philosopher 217 is eatingPhilosopher 229 took chopstick 229
+
+Philosopher 201 returned chopstick 202
+Heap available remain: 130968
+Philosopher 201 returned chopstick 201
+Philosopher 229 took chopstick 230
+Philosopher 229 is eating
+Heap available remain: 130968
+Philosopher 171 returned chopstick 172
+Philosopher 231 took chopstick 231
+Heap available remain: 130968
+Philosopher 171 returned chopstick 171
+Philosopher 170 took chopstick 171Philosopher 232 took chopstick 232
+
+Heap available remain: 128552
+Philosopher 170 is eating
+Heap available remain: 126136
+Philosopher 226 returned chopstick 227Philosopher 227 took chopstick 227Philosopher 233 took chopstick 233
+
+Philosopher 234 took chopstick 234Philosopher 226 returned chopstick 226
+
+
+Heap available remain: 126136
+Philosopher 225 took chopstick 226
+Philosopher 188 returned chopstick 189Philosopher 225 is eatingPhilosopher 235 took chopstick 235
+Heap available remain: 123720
+Philosopher 215 returned chopstick 216Philosopher 236 took chopstick 236
+
+
+Philosopher 163 returned chopstick 164Philosopher 187 took chopstick 188
+Philosopher 188 returned chopstick 188
+Philosopher 163 returned chopstick 163Philosopher 215 returned chopstick 215
+Philosopher 214 took chopstick 215
+Philosopher 197 returned chopstick 198Philosopher 214 is eating
+Philosopher 207 returned chopstick 208
+
+Philosopher 217 returned chopstick 218
+Heap available remain: 123720Philosopher 236 took chopstick 237
+
+Philosopher 217 returned chopstick 217
+Philosopher 206 took chopstick 207
+Philosopher 187 is eatingPhilosopher 206 is eating
+
+Philosopher 207 returned chopstick 207Philosopher 229 returned chopstick 230
+Philosopher 236 is eatingPhilosopher 196 took chopstick 197Philosopher 229 returned chopstick 229
+Heap available remain: 126136
+
+Philosopher 230 took chopstick 230Philosopher 238 took chopstick 238
+Philosopher 197 returned chopstick 197
+
+
+
+
+Philosopher 228 took chopstick 229
+Philosopher 170 returned chopstick 171Philosopher 228 is eating
+Heap available remain: 126136
+Philosopher 238 took chopstick 239
+Philosopher 196 is eatingPhilosopher 238 is eating
+Philosopher 170 returned chopstick 170
+
+
+
+Heap available remain: 130968
+
+Philosopher 240 took chopstick 240
+Heap available remain: 128552
+Philosopher 241 took chopstick 241
+Heap available remain: 130968
+Philosopher 242 took chopstick 242
+Heap available remain: 128552
+Philosopher 214 returned chopstick 215
+Heap available remain: 126136
+Philosopher 242 took chopstick 243
+Philosopher 242 is eating
+Philosopher 244 took chopstick 244Heap available remain: 123720Philosopher 213 took chopstick 214
+
+Philosopher 213 is eating
+Philosopher 214 returned chopstick 214
+
+Philosopher 206 returned chopstick 207
+Philosopher 244 took chopstick 245
+Philosopher 205 took chopstick 206
+Philosopher 205 is eating
+Philosopher 244 is eatingPhilosopher 206 returned chopstick 206
+
+Heap available remain: 121304
+Philosopher 246 took chopstick 246
+Heap available remain: 121304Philosopher 236 returned chopstick 237
+Philosopher 237 took chopstick 237
+
+Heap available remain: 121304
+Philosopher 236 returned chopstick 236
+Philosopher 247 took chopstick 247Philosopher 225 returned chopstick 226
+Heap available remain: 118888
+Philosopher 187 returned chopstick 188
+
+Philosopher 248 took chopstick 248Philosopher 235 took chopstick 236Philosopher 249 took chopstick 249Philosopher 225 returned chopstick 225
+Philosopher 196 returned chopstick 197Philosopher 238 returned chopstick 239
+Philosopher 186 took chopstick 187
+Heap available remain: 116472
+Philosopher 186 is eating
+Philosopher 224 took chopstick 225Philosopher 239 took chopstick 239Philosopher 250 took chopstick 250
+Philosopher 187 returned chopstick 187Philosopher 196 returned chopstick 196Philosopher 213 returned chopstick 214
+
+
+
+Philosopher 212 took chopstick 213Philosopher 228 returned chopstick 229Philosopher 224 is eating
+Philosopher 213 returned chopstick 213
+
+
+Philosopher 195 took chopstick 196Philosopher 205 returned chopstick 206
+
+Philosopher 250 took chopstick 251
+
+
+Philosopher 195 is eating
+
+Philosopher 250 is eating
+
+Philosopher 242 returned chopstick 243
+Philosopher 243 took chopstick 243Philosopher 235 is eatingPhilosopher 205 returned chopstick 205
+Philosopher 204 took chopstick 205Philosopher 244 returned chopstick 245
+Philosopher 227 took chopstick 228Philosopher 244 returned chopstick 244
+Philosopher 212 is eating
+Philosopher 242 returned chopstick 242
+Philosopher 241 took chopstick 242
+
+
+Philosopher 228 returned chopstick 228Philosopher 245 took chopstick 245
+
+
+Philosopher 241 is eatingHeap available remain: 118888
+Philosopher 204 is eating
+Philosopher 238 returned chopstick 238
+
+
+Philosopher 237 took chopstick 238Philosopher 243 took chopstick 244
+Philosopher 243 is eating
+Philosopher 227 is eating
+
+
+Heap available remain: 130968
+Philosopher 237 is eating
+Philosopher 252 took chopstick 252
+Heap available remain: 133384
+Philosopher 252 took chopstick 253Heap available remain: 130968
+Philosopher 254 took chopstick 254
+
+Philosopher 252 is eating
+Philosopher 186 returned chopstick 187
+Heap available remain: 128552
+Philosopher 254 took chopstick 255
+Philosopher 254 is eatingHeap available remain: 126136
+Philosopher 186 returned chopstick 186
+
+Philosopher 256 took chopstick 256
+Heap available remain: 123720Philosopher 195 returned chopstick 196
+Philosopher 250 returned chopstick 251Philosopher 251 took chopstick 251
+
+Philosopher 250 returned chopstick 250Philosopher 249 took chopstick 250
+Philosopher 195 returned chopstick 195Philosopher 249 is eating
+Philosopher 224 returned chopstick 225Philosopher 256 took chopstick 257
+Philosopher 185 took chopstick 186Philosopher 256 is eatingHeap available remain: 123720
+Philosopher 235 returned chopstick 236
+
+Philosopher 235 returned chopstick 235Philosopher 234 took chopstick 235Philosopher 224 returned chopstick 224
+Philosopher 241 returned chopstick 242
+Philosopher 185 is eatingPhilosopher 241 returned chopstick 241
+
+
+
+Philosopher 240 took chopstick 241Philosopher 212 returned chopstick 213
+Philosopher 234 is eatingPhilosopher 194 took chopstick 195Philosopher 243 returned chopstick 244Philosopher 252 returned chopstick 253Philosopher 204 returned chopstick 205
+Philosopher 237 returned chopstick 238Philosopher 204 returned chopstick 204
+
+
+
+Philosopher 240 is eating
+
+Philosopher 212 returned chopstick 212Philosopher 211 took chopstick 212
+Philosopher 227 returned chopstick 228Philosopher 254 returned chopstick 255
+
+Philosopher 254 returned chopstick 254Philosopher 252 returned chopstick 252Philosopher 251 took chopstick 252
+
+Philosopher 251 is eating
+
+Philosopher 253 took chopstick 253
+
+
+Heap available remain: 130968Philosopher 243 returned chopstick 243
+Philosopher 227 returned chopstick 227
+Philosopher 223 took chopstick 224
+
+Philosopher 223 is eating
+Philosopher 211 is eatingPhilosopher 249 returned chopstick 250
+
+
+
+Philosopher 249 returned chopstick 249
+Philosopher 258 took chopstick 258Philosopher 253 took chopstick 254
+Philosopher 194 is eating
+Philosopher 248 took chopstick 249
+
+
+Philosopher 255 took chopstick 255
+
+
+
+Philosopher 237 returned chopstick 237Philosopher 253 is eating
+Philosopher 248 is eating
+
+Heap available remain: 147880Philosopher 185 returned chopstick 186
+
+Philosopher 185 returned chopstick 185
+Philosopher 258 took chopstick 259Heap available remain: 147880
+
+Philosopher 260 took chopstick 260
+Philosopher 261 took chopstick 261Heap available remain: 145464
+Philosopher 256 returned chopstick 257Philosopher 257 took chopstick 257
+Philosopher 258 is eating
+
+Heap available remain: 145464
+Philosopher 256 returned chopstick 256
+Philosopher 255 took chopstick 256
+
+Philosopher 255 is eatingPhilosopher 240 returned chopstick 241Philosopher 262 took chopstick 262
+
+Philosopher 234 returned chopstick 235
+
+Philosopher 263 took chopstick 263Philosopher 251 returned chopstick 252Philosopher 240 returned chopstick 240
+Philosopher 234 returned chopstick 234
+Heap available remain: 145464Philosopher 239 took chopstick 240Philosopher 251 returned chopstick 251
+
+
+
+Philosopher 233 took chopstick 234
+Philosopher 239 is eatingPhilosopher 223 returned chopstick 224
+Philosopher 264 took chopstick 264
+
+Heap available remain: 143048
+
+Philosopher 223 returned chopstick 223
+Philosopher 211 returned chopstick 212Heap available remain: 147880Philosopher 264 took chopstick 265
+Philosopher 253 returned chopstick 254
+Philosopher 222 took chopstick 223Philosopher 253 returned chopstick 253
+Philosopher 248 returned chopstick 249
+Philosopher 233 is eatingPhilosopher 264 is eating
+Philosopher 194 returned chopstick 195
+Philosopher 248 returned chopstick 248Philosopher 266 took chopstick 266
+
+
+
+
+Philosopher 222 is eating
+Philosopher 247 took chopstick 248Philosopher 259 took chopstick 259Philosopher 194 returned chopstick 194Heap available remain: 150296
+Philosopher 258 returned chopstick 259Philosopher 211 returned chopstick 211
+Philosopher 193 took chopstick 194
+
+Philosopher 193 is eating
+Philosopher 255 returned chopstick 256
+
+Philosopher 255 returned chopstick 255
+Philosopher 258 returned chopstick 258
+Philosopher 257 took chopstick 258
+Philosopher 210 took chopstick 211
+Philosopher 266 took chopstick 267
+Philosopher 210 is eating
+Philosopher 257 is eating
+
+Philosopher 247 is eatingHeap available remain: 150296
+
+Philosopher 239 returned chopstick 240
+Philosopher 239 returned chopstick 239
+
+Philosopher 266 is eating
+
+Philosopher 268 took chopstick 268
+Heap available remain: 157544
+Philosopher 269 took chopstick 269
+Heap available remain: 155128
+Philosopher 270 took chopstick 270
+Heap available remain: 155128
+Philosopher 271 took chopstick 271
+Heap available remain: 152712
+Philosopher 233 returned chopstick 234
+Philosopher 271 took chopstick 272
+Philosopher 271 is eatingPhilosopher 232 took chopstick 233
+Philosopher 233 returned chopstick 233
+
+Heap available remain: 150296Philosopher 264 returned chopstick 265
+Philosopher 265 took chopstick 265Philosopher 232 is eating
+
+Philosopher 264 returned chopstick 264
+
+Philosopher 273 took chopstick 273
+Philosopher 263 took chopstick 264
+Philosopher 263 is eating
+Philosopher 222 returned chopstick 223Heap available remain: 150296
+Philosopher 193 returned chopstick 194
+
+Philosopher 273 took chopstick 274
+Philosopher 222 returned chopstick 222Philosopher 273 is eatingPhilosopher 221 took chopstick 222
+Philosopher 193 returned chopstick 193
+
+Philosopher 192 took chopstick 193
+Heap available remain: 150296Philosopher 192 is eatingPhilosopher 257 returned chopstick 258
+Philosopher 257 returned chopstick 257Philosopher 210 returned chopstick 211
+
+Philosopher 266 returned chopstick 267
+Philosopher 267 took chopstick 267
+
+
+
+Philosopher 275 took chopstick 275Heap available remain: 155128Philosopher 266 returned chopstick 266
+Philosopher 265 took chopstick 266
+
+Philosopher 265 is eating
+Philosopher 210 returned chopstick 210Philosopher 221 is eating
+Philosopher 275 took chopstick 276
+
+Philosopher 247 returned chopstick 248
+
+Heap available remain: 152712Philosopher 275 is eatingPhilosopher 246 took chopstick 247
+Philosopher 246 is eating
+
+Philosopher 271 returned chopstick 272
+
+Philosopher 272 took chopstick 272Philosopher 247 returned chopstick 247Heap available remain: 152712
+Philosopher 232 returned chopstick 233
+
+Philosopher 232 returned chopstick 232Philosopher 231 took chopstick 232
+Philosopher 271 returned chopstick 271Philosopher 231 is eating
+Philosopher 263 returned chopstick 264Philosopher 270 took chopstick 271
+
+Philosopher 278 took chopstick 278
+Heap available remain: 152712
+
+Philosopher 277 took chopstick 277
+
+
+Philosopher 263 returned chopstick 263
+Philosopher 270 is eating
+Philosopher 273 returned chopstick 274Philosopher 274 took chopstick 274
+Philosopher 278 took chopstick 279Philosopher 262 took chopstick 263Philosopher 192 returned chopstick 193
+
+Philosopher 278 is eatingHeap available remain: 155128
+
+Philosopher 192 returned chopstick 192
+Philosopher 280 took chopstick 280
+
+Philosopher 262 is eatingPhilosopher 272 took chopstick 273
+Heap available remain: 157544Philosopher 272 is eatingPhilosopher 265 returned chopstick 266
+Philosopher 273 returned chopstick 273
+
+
+Philosopher 265 returned chopstick 265
+Philosopher 246 returned chopstick 247
+Philosopher 221 returned chopstick 222
+
+
+Philosopher 280 took chopstick 281Philosopher 246 returned chopstick 246
+Philosopher 245 took chopstick 246
+Heap available remain: 155128Philosopher 245 is eatingPhilosopher 276 took chopstick 276
+Philosopher 221 returned chopstick 221
+Philosopher 275 returned chopstick 276
+Philosopher 280 is eating
+
+
+Philosopher 231 returned chopstick 232
+
+Philosopher 220 took chopstick 221
+Philosopher 231 returned chopstick 231
+Philosopher 282 took chopstick 282Philosopher 274 took chopstick 275Philosopher 275 returned chopstick 275
+
+
+Heap available remain: 162376
+Philosopher 274 is eatingPhilosopher 220 is eating
+Philosopher 230 took chopstick 231Philosopher 282 took chopstick 283
+Philosopher 230 is eating
+Philosopher 270 returned chopstick 271Heap available remain: 167208
+
+Philosopher 278 returned chopstick 279Philosopher 279 took chopstick 279
+Philosopher 270 returned chopstick 270Philosopher 269 took chopstick 270
+
+
+
+Philosopher 269 is eating
+
+Philosopher 282 is eating
+Philosopher 284 took chopstick 284
+Philosopher 278 returned chopstick 278Philosopher 277 took chopstick 278
+
+Philosopher 277 is eating
+Philosopher 262 returned chopstick 263
+Heap available remain: 164792Philosopher 272 returned chopstick 273
+Philosopher 272 returned chopstick 272
+
+Philosopher 284 took chopstick 285Philosopher 261 took chopstick 262
+Philosopher 262 returned chopstick 262
+Philosopher 261 is eating
+Heap available remain: 167208
+Philosopher 280 returned chopstick 281
+Philosopher 281 took chopstick 281Philosopher 245 returned chopstick 246
+
+
+Philosopher 286 took chopstick 286Heap available remain: 169624
+Philosopher 279 took chopstick 280
+Philosopher 284 is eating
+Philosopher 245 returned chopstick 245
+
+Philosopher 279 is eatingPhilosopher 280 returned chopstick 280Philosopher 287 took chopstick 287
+
+Heap available remain: 167208
+Philosopher 220 returned chopstick 221
+
+Heap available remain: 167208Philosopher 230 returned chopstick 231
+
+Philosopher 287 took chopstick 288
+Philosopher 220 returned chopstick 220Philosopher 283 took chopstick 283
+Philosopher 289 took chopstick 289Philosopher 282 returned chopstick 283
+Philosopher 287 is eatingPhilosopher 219 took chopstick 220
+Philosopher 274 returned chopstick 275Philosopher 282 returned chopstick 282
+Philosopher 269 returned chopstick 270
+
+Heap available remain: 164792Philosopher 277 returned chopstick 278
+
+Philosopher 230 returned chopstick 230
+
+Philosopher 219 is eating
+
+Philosopher 269 returned chopstick 269Philosopher 274 returned chopstick 274Philosopher 268 took chopstick 269
+Heap available remain: 167208Philosopher 268 is eating
+
+
+Philosopher 290 took chopstick 290Philosopher 261 returned chopstick 262
+
+Philosopher 261 returned chopstick 261Philosopher 260 took chopstick 261
+
+Philosopher 260 is eating
+Philosopher 277 returned chopstick 277
+Philosopher 276 took chopstick 277Philosopher 281 took chopstick 282
+
+
+
+Philosopher 281 is eating
+Philosopher 284 returned chopstick 285
+Philosopher 276 is eatingPhilosopher 285 took chopstick 285
+Heap available remain: 174456
+Philosopher 290 took chopstick 291Philosopher 284 returned chopstick 284
+
+Philosopher 279 returned chopstick 280
+Philosopher 292 took chopstick 292
+Heap available remain: 176872
+Philosopher 283 took chopstick 284Philosopher 290 is eating
+Philosopher 283 is eating
+
+Philosopher 292 took chopstick 293
+Philosopher 292 is eating
+
+Heap available remain: 176872Philosopher 279 returned chopstick 279
+Philosopher 287 returned chopstick 288
+
+Philosopher 288 took chopstick 288
+Philosopher 294 took chopstick 294Philosopher 286 took chopstick 287
+Heap available remain: 174456Philosopher 286 is eating
+Philosopher 287 returned chopstick 287
+Philosopher 219 returned chopstick 220Philosopher 295 took chopstick 295
+
+Philosopher 268 returned chopstick 269
+
+Heap available remain: 174456
+Philosopher 268 returned chopstick 268
+Philosopher 267 took chopstick 268
+Philosopher 260 returned chopstick 261
+Philosopher 295 took chopstick 296
+Philosopher 267 is eatingPhilosopher 295 is eating
+Philosopher 260 returned chopstick 260
+Philosopher 281 returned chopstick 282
+Philosopher 219 returned chopstick 219
+Philosopher 259 took chopstick 260
+Philosopher 276 returned chopstick 277
+Philosopher 281 returned chopstick 281
+
+Heap available remain: 176872Philosopher 259 is eating
+
+
+Philosopher 276 returned chopstick 276
+Philosopher 297 took chopstick 297
+Heap available remain: 179288Philosopher 283 returned chopstick 284
+Philosopher 290 returned chopstick 291
+
+Philosopher 283 returned chopstick 283
+Philosopher 291 took chopstick 291Philosopher 290 returned chopstick 290
+Heap available remain: 181704
+Philosopher 292 returned chopstick 293
+Philosopher 289 took chopstick 290
+
+Philosopher 298 took chopstick 298
+Heap available remain: 179288Philosopher 292 returned chopstick 292
+Philosopher 293 took chopstick 293Philosopher 289 is eating
+Philosopher 299 took chopstick 299
+Philosopher 286 returned chopstick 287
+
+Philosopher 291 took chopstick 292
+Philosopher 285 took chopstick 286
+Philosopher 285 is eating
+
+Heap available remain: 184120
+Philosopher 286 returned chopstick 286
+Philosopher 299 took chopstick 300Philosopher 301 took chopstick 301
+Philosopher 299 is eatingPhilosopher 291 is eating
+Heap available remain: 181704
+Philosopher 267 returned chopstick 268
+
+
+Philosopher 302 took chopstick 302
+Philosopher 267 returned chopstick 267Heap available remain: 181704
+Philosopher 259 returned chopstick 260Philosopher 302 took chopstick 303
+
+Heap available remain: 179288
+Philosopher 295 returned chopstick 296
+
+Philosopher 295 returned chopstick 295Philosopher 294 took chopstick 295Philosopher 304 took chopstick 304
+Philosopher 296 took chopstick 296
+Philosopher 259 returned chopstick 259Philosopher 302 is eating
+
+
+Heap available remain: 179288
+Philosopher 294 is eating
+Philosopher 305 took chopstick 305
+
+Heap available remain: 176872
+Philosopher 306 took chopstick 306
+Heap available remain: 179288
+Philosopher 307 took chopstick 307
+Heap available remain: 176872
+Philosopher 308 took chopstick 308
+Heap available remain: 174456
+Philosopher 309 took chopstick 309
+Heap available remain: 172040
+Philosopher 289 returned chopstick 290Philosopher 285 returned chopstick 286
+Philosopher 285 returned chopstick 285
+Heap available remain: 169624
+
+Philosopher 309 took chopstick 310
+Heap available remain: 167208Philosopher 289 returned chopstick 289
+Philosopher 288 took chopstick 289
+Philosopher 288 is eating
+
+Philosopher 309 is eatingPhilosopher 311 took chopstick 311
+Philosopher 299 returned chopstick 300Philosopher 300 took chopstick 300
+Philosopher 312 took chopstick 312Philosopher 291 returned chopstick 292
+
+Philosopher 291 returned chopstick 291Heap available remain: 169624
+Philosopher 299 returned chopstick 299
+
+
+Philosopher 313 took chopstick 313
+
+Philosopher 298 took chopstick 299
+Philosopher 298 is eating
+Heap available remain: 167208Philosopher 302 returned chopstick 303
+Philosopher 303 took chopstick 303
+
+Philosopher 313 took chopstick 314
+Philosopher 302 returned chopstick 302Philosopher 313 is eatingPhilosopher 301 took chopstick 302
+
+Heap available remain: 169624
+
+Philosopher 301 is eatingPhilosopher 315 took chopstick 315
+
+Philosopher 294 returned chopstick 295
+Philosopher 294 returned chopstick 294
+Heap available remain: 169624
+Philosopher 315 took chopstick 316
+Philosopher 315 is eatingPhilosopher 293 took chopstick 294
+Philosopher 293 is eating
+Heap available remain: 167208
+
+Philosopher 317 took chopstick 317
+Heap available remain: 167208
+Philosopher 318 took chopstick 318
+Heap available remain: 164792
+Philosopher 288 returned chopstick 289
+Heap available remain: 162376
+Philosopher 288 returned chopstick 288
+Philosopher 318 took chopstick 319Heap available remain: 159960
+
+Philosopher 318 is eating
+Philosopher 320 took chopstick 320
+Philosopher 321 took chopstick 321
+Heap available remain: 159960
+Philosopher 309 returned chopstick 310Philosopher 310 took chopstick 310
+
+Philosopher 321 took chopstick 322Philosopher 308 took chopstick 309
+Philosopher 308 is eating
+
+Heap available remain: 157544Philosopher 321 is eating
+Philosopher 309 returned chopstick 309
+
+Philosopher 298 returned chopstick 299
+Heap available remain: 155128Philosopher 298 returned chopstick 298
+
+Philosopher 323 took chopstick 323
+Philosopher 297 took chopstick 298
+Philosopher 324 took chopstick 324Philosopher 297 is eatingHeap available remain: 155128Philosopher 301 returned chopstick 302
+
+
+Philosopher 301 returned chopstick 301
+
+Philosopher 313 returned chopstick 314Philosopher 300 took chopstick 301Philosopher 324 took chopstick 325
+
+Philosopher 324 is eating
+
+Philosopher 314 took chopstick 314Philosopher 300 is eatingHeap available remain: 155128
+Philosopher 315 returned chopstick 316
+Philosopher 316 took chopstick 316
+
+Philosopher 312 took chopstick 313
+Philosopher 315 returned chopstick 315Philosopher 326 took chopstick 326
+Philosopher 314 took chopstick 315
+
+Philosopher 313 returned chopstick 313Philosopher 293 returned chopstick 294Philosopher 312 is eating
+Philosopher 319 took chopstick 319
+
+Philosopher 314 is eating
+Philosopher 293 returned chopstick 293Philosopher 326 took chopstick 327
+Heap available remain: 155128
+
+Philosopher 318 returned chopstick 319Philosopher 308 returned chopstick 309
+
+
+Philosopher 321 returned chopstick 322
+
+Philosopher 322 took chopstick 322Philosopher 326 is eatingPhilosopher 308 returned chopstick 308
+
+Philosopher 317 took chopstick 318Philosopher 307 took chopstick 308
+Philosopher 320 took chopstick 321Philosopher 307 is eating
+
+Philosopher 321 returned chopstick 321
+
+Heap available remain: 155128
+Philosopher 318 returned chopstick 318Philosopher 297 returned chopstick 298
+Philosopher 320 is eating
+Philosopher 317 is eating
+
+Philosopher 328 took chopstick 328
+
+Heap available remain: 162376Philosopher 296 took chopstick 297
+Philosopher 324 returned chopstick 325
+
+Philosopher 297 returned chopstick 297Philosopher 324 returned chopstick 324Philosopher 323 took chopstick 324Philosopher 325 took chopstick 325
+Philosopher 296 is eating
+
+Heap available remain: 162376
+Philosopher 300 returned chopstick 301Philosopher 330 took chopstick 330
+
+
+Philosopher 329 took chopstick 329
+Heap available remain: 159960Philosopher 300 returned chopstick 300
+
+
+Philosopher 312 returned chopstick 313
+Philosopher 330 took chopstick 331Heap available remain: 162376Philosopher 312 returned chopstick 312
+Philosopher 314 returned chopstick 315
+
+Philosopher 311 took chopstick 312
+
+Philosopher 311 is eatingPhilosopher 332 took chopstick 332Philosopher 330 is eating
+Heap available remain: 162376
+Philosopher 314 returned chopstick 314
+
+
+Philosopher 323 is eating
+Philosopher 333 took chopstick 333Heap available remain: 162376
+Philosopher 326 returned chopstick 327
+Philosopher 327 took chopstick 327
+Philosopher 333 took chopstick 334
+Heap available remain: 162376
+Philosopher 320 returned chopstick 321
+Philosopher 326 returned chopstick 326Philosopher 333 is eating
+Philosopher 317 returned chopstick 318Philosopher 325 took chopstick 326
+Philosopher 320 returned chopstick 320
+
+Philosopher 335 took chopstick 335
+
+Philosopher 325 is eatingPhilosopher 319 took chopstick 320
+Heap available remain: 162376Philosopher 317 returned chopstick 317
+Philosopher 316 took chopstick 317
+
+Philosopher 296 returned chopstick 297
+Philosopher 335 took chopstick 336
+
+Philosopher 335 is eatingPhilosopher 307 returned chopstick 308Philosopher 319 is eating
+Philosopher 316 is eating
+
+
+Philosopher 296 returned chopstick 296
+Heap available remain: 164792
+
+Philosopher 337 took chopstick 337Heap available remain: 162376
+Philosopher 307 returned chopstick 307
+
+Philosopher 306 took chopstick 307Heap available remain: 162376
+Philosopher 331 took chopstick 331
+Philosopher 337 took chopstick 338
+Philosopher 337 is eating
+Philosopher 330 returned chopstick 331Philosopher 306 is eating
+
+
+Philosopher 311 returned chopstick 312Philosopher 330 returned chopstick 330
+Philosopher 329 took chopstick 330
+Heap available remain: 162376Philosopher 329 is eating
+Philosopher 339 took chopstick 339
+
+Philosopher 323 returned chopstick 324
+
+Philosopher 323 returned chopstick 323
+Philosopher 322 took chopstick 323
+Philosopher 322 is eatingPhilosopher 340 took chopstick 340
+Philosopher 311 returned chopstick 311Philosopher 310 took chopstick 311
+
+
+Philosopher 310 is eatingPhilosopher 325 returned chopstick 326
+Philosopher 333 returned chopstick 334Philosopher 325 returned chopstick 325
+
+Philosopher 340 took chopstick 341
+Heap available remain: 162376
+Philosopher 334 took chopstick 334
+
+Philosopher 333 returned chopstick 333
+Philosopher 340 is eating
+Philosopher 319 returned chopstick 320
+Heap available remain: 167208Philosopher 319 returned chopstick 319
+Philosopher 335 returned chopstick 336Philosopher 336 took chopstick 336
+
+Philosopher 316 returned chopstick 317Philosopher 332 took chopstick 333
+Philosopher 332 is eating
+
+Philosopher 316 returned chopstick 316
+
+Philosopher 342 took chopstick 342Philosopher 335 returned chopstick 335Philosopher 334 took chopstick 335
+Philosopher 306 returned chopstick 307
+
+Philosopher 337 returned chopstick 338
+Philosopher 305 took chopstick 306
+Philosopher 338 took chopstick 338
+Philosopher 334 is eating
+Philosopher 306 returned chopstick 306
+
+Heap available remain: 169624Philosopher 305 is eatingPhilosopher 329 returned chopstick 330
+
+Philosopher 329 returned chopstick 329
+
+Heap available remain: 174456Philosopher 342 took chopstick 343Philosopher 337 returned chopstick 337
+Philosopher 322 returned chopstick 323
+
+Philosopher 328 took chopstick 329Philosopher 342 is eating
+Philosopher 322 returned chopstick 322
+Philosopher 336 took chopstick 337
+
+Philosopher 336 is eating
+
+Philosopher 340 returned chopstick 341
+Heap available remain: 172040Philosopher 340 returned chopstick 340
+Philosopher 310 returned chopstick 311Philosopher 328 is eating
+Philosopher 344 took chopstick 344Philosopher 341 took chopstick 341
+
+Philosopher 310 returned chopstick 310Philosopher 339 took chopstick 340
+
+
+Philosopher 339 is eating
+
+Heap available remain: 179288
+Philosopher 332 returned chopstick 333
+Philosopher 345 took chopstick 345Philosopher 346 took chopstick 346
+
+Philosopher 332 returned chopstick 332
+Philosopher 331 took chopstick 332
+Philosopher 346 took chopstick 347
+Philosopher 346 is eating
+Philosopher 331 is eating
+Heap available remain: 176872
+Philosopher 334 returned chopstick 335
+Philosopher 334 returned chopstick 334
+Heap available remain: 179288
+Philosopher 348 took chopstick 348
+Heap available remain: 176872
+Philosopher 305 returned chopstick 306
+Philosopher 304 took chopstick 305
+Philosopher 304 is eating
+Philosopher 305 returned chopstick 305
+Philosopher 349 took chopstick 349
+Heap available remain: 176872
+Philosopher 350 took chopstick 350
+Heap available remain: 174456
+Philosopher 342 returned chopstick 343Philosopher 343 took chopstick 343
+Heap available remain: 174456
+Philosopher 336 returned chopstick 337
+Philosopher 350 took chopstick 351Philosopher 336 returned chopstick 336
+
+Philosopher 342 returned chopstick 342Philosopher 341 took chopstick 342
+
+Philosopher 352 took chopstick 352
+Heap available remain: 172040
+Philosopher 339 returned chopstick 340
+
+Philosopher 341 is eating
+Philosopher 353 took chopstick 353Philosopher 350 is eating
+Philosopher 339 returned chopstick 339Philosopher 338 took chopstick 339
+
+Philosopher 338 is eatingPhilosopher 328 returned chopstick 329
+Philosopher 331 returned chopstick 332Philosopher 346 returned chopstick 347
+
+
+Philosopher 346 returned chopstick 346Philosopher 345 took chopstick 346
+Philosopher 331 returned chopstick 331Philosopher 327 took chopstick 328
+Heap available remain: 172040
+
+Philosopher 347 took chopstick 347Philosopher 304 returned chopstick 305Philosopher 327 is eating
+
+Philosopher 328 returned chopstick 328
+
+Philosopher 353 took chopstick 354
+Heap available remain: 174456
+
+
+Philosopher 303 took chopstick 304
+Philosopher 353 is eating
+Philosopher 304 returned chopstick 304Philosopher 355 took chopstick 355
+Heap available remain: 174456
+
+Philosopher 356 took chopstick 356
+Philosopher 345 is eatingPhilosopher 303 is eating
+
+Heap available remain: 176872
+Philosopher 357 took chopstick 357
+Heap available remain: 176872
+Philosopher 358 took chopstick 358
+Heap available remain: 174456
+Philosopher 359 took chopstick 359
+Heap available remain: 172040
+Philosopher 360 took chopstick 360
+Heap available remain: 169624Philosopher 341 returned chopstick 342
+Philosopher 350 returned chopstick 351Philosopher 361 took chopstick 361
+Philosopher 351 took chopstick 351
+Heap available remain: 167208
+
+
+Philosopher 341 returned chopstick 341
+Philosopher 350 returned chopstick 350
+Philosopher 362 took chopstick 362Philosopher 349 took chopstick 350
+Heap available remain: 164792
+
+Philosopher 349 is eatingPhilosopher 338 returned chopstick 339Heap available remain: 164792
+
+Philosopher 363 took chopstick 363
+Philosopher 338 returned chopstick 338
+
+Heap available remain: 164792
+Philosopher 364 took chopstick 364
+Philosopher 327 returned chopstick 328
+Philosopher 365 took chopstick 365
+Heap available remain: 164792
+Philosopher 327 returned chopstick 327
+Philosopher 366 took chopstick 366Heap available remain: 162376
+Philosopher 353 returned chopstick 354
+Philosopher 354 took chopstick 354
+
+Philosopher 366 took chopstick 367
+Philosopher 366 is eating
+Philosopher 303 returned chopstick 304
+Philosopher 352 took chopstick 353Philosopher 303 returned chopstick 303Heap available remain: 162376
+Philosopher 345 returned chopstick 346
+Philosopher 353 returned chopstick 353
+
+Heap available remain: 159960
+
+Philosopher 345 returned chopstick 345Philosopher 352 is eating
+Philosopher 369 took chopstick 369Heap available remain: 157544
+Philosopher 344 took chopstick 345
+
+
+Philosopher 368 took chopstick 368
+Philosopher 344 is eating
+Heap available remain: 159960
+Philosopher 370 took chopstick 370
+Philosopher 371 took chopstick 371
+Heap available remain: 159960
+Philosopher 371 took chopstick 372
+Philosopher 371 is eating
+Philosopher 349 returned chopstick 350
+Heap available remain: 157544
+Philosopher 349 returned chopstick 349
+Philosopher 348 took chopstick 349Philosopher 373 took chopstick 373
+
+Philosopher 348 is eating
+Heap available remain: 155128
+Philosopher 374 took chopstick 374
+Heap available remain: 152712
+Philosopher 375 took chopstick 375
+Heap available remain: 152712
+Philosopher 376 took chopstick 376
+Heap available remain: 150296Philosopher 366 returned chopstick 367
+
+Philosopher 367 took chopstick 367
+Heap available remain: 147880Philosopher 366 returned chopstick 366
+Philosopher 377 took chopstick 377
+
+Philosopher 365 took chopstick 366
+Philosopher 378 took chopstick 378
+Heap available remain: 145464
+Philosopher 365 is eating
+Philosopher 378 took chopstick 379
+Philosopher 378 is eating
+Heap available remain: 145464
+Philosopher 380 took chopstick 380
+Philosopher 352 returned chopstick 353
+Heap available remain: 143048
+Philosopher 351 took chopstick 352
+Philosopher 351 is eating
+Philosopher 352 returned chopstick 352Philosopher 381 took chopstick 381
+
+Philosopher 344 returned chopstick 345
+Heap available remain: 140632Philosopher 344 returned chopstick 344
+Philosopher 343 took chopstick 344Philosopher 371 returned chopstick 372Philosopher 348 returned chopstick 349
+Philosopher 381 took chopstick 382
+Philosopher 371 returned chopstick 371
+Philosopher 348 returned chopstick 348
+Philosopher 372 took chopstick 372
+
+
+Heap available remain: 145464Philosopher 343 is eating
+
+
+Philosopher 370 took chopstick 371
+Philosopher 370 is eating
+Philosopher 347 took chopstick 348
+Philosopher 383 took chopstick 383Philosopher 347 is eating
+Heap available remain: 143048
+
+Philosopher 381 is eating
+Philosopher 384 took chopstick 384
+Heap available remain: 143048
+Philosopher 385 took chopstick 385
+Heap available remain: 140632
+Philosopher 386 took chopstick 386
+Heap available remain: 138216Philosopher 365 returned chopstick 366
+Philosopher 378 returned chopstick 379Philosopher 387 took chopstick 387
+Philosopher 379 took chopstick 379
+Heap available remain: 135800Philosopher 378 returned chopstick 378
+
+
+
+Philosopher 377 took chopstick 378
+Philosopher 364 took chopstick 365Philosopher 377 is eatingPhilosopher 388 took chopstick 388Philosopher 365 returned chopstick 365
+Philosopher 364 is eatingHeap available remain: 133384
+
+
+
+Philosopher 351 returned chopstick 352
+Philosopher 351 returned chopstick 351
+
+Philosopher 389 took chopstick 389
+Heap available remain: 133384
+Philosopher 390 took chopstick 390
+Heap available remain: 130968
+Philosopher 390 took chopstick 391
+Philosopher 390 is eating
+Philosopher 343 returned chopstick 344
+Heap available remain: 133384
+Philosopher 343 returned chopstick 343
+Heap available remain: 130968Philosopher 392 took chopstick 392
+Philosopher 370 returned chopstick 371
+Philosopher 347 returned chopstick 348
+
+Philosopher 393 took chopstick 393Heap available remain: 128552
+Philosopher 381 returned chopstick 382Philosopher 370 returned chopstick 370
+Philosopher 347 returned chopstick 347
+
+Philosopher 382 took chopstick 382Philosopher 394 took chopstick 394
+Heap available remain: 128552
+
+Philosopher 381 returned chopstick 381Philosopher 380 took chopstick 381
+Philosopher 380 is eating
+
+Philosopher 369 took chopstick 370
+
+Philosopher 369 is eating
+Philosopher 394 took chopstick 395
+Philosopher 394 is eating
+Heap available remain: 133384
+Philosopher 396 took chopstick 396
+Philosopher 364 returned chopstick 365
+Philosopher 377 returned chopstick 378
+Heap available remain: 130968
+Philosopher 377 returned chopstick 377Philosopher 376 took chopstick 377
+Philosopher 396 took chopstick 397
+Heap available remain: 128552Philosopher 364 returned chopstick 364
+Philosopher 363 took chopstick 364
+
+Philosopher 363 is eating
+Philosopher 396 is eating
+Philosopher 390 returned chopstick 391
+Philosopher 391 took chopstick 391
+
+Philosopher 376 is eating
+Philosopher 398 took chopstick 398Philosopher 390 returned chopstick 390
+Philosopher 389 took chopstick 390
+Heap available remain: 128552
+
+Philosopher 399 took chopstick 399
+Philosopher 389 is eating
+Heap available remain: 128552
+Philosopher 399 took chopstick 400
+Heap available remain: 128552
+Philosopher 399 is eating
+Heap available remain: 126136
+Philosopher 401 took chopstick 401
+Philosopher 402 took chopstick 402Heap available remain: 123720
+
+Philosopher 403 took chopstick 403
+Philosopher 380 returned chopstick 381
+Heap available remain: 121304Philosopher 369 returned chopstick 370
+Philosopher 394 returned chopstick 395
+Philosopher 380 returned chopstick 380
+Philosopher 379 took chopstick 380
+Philosopher 403 took chopstick 404
+Philosopher 395 took chopstick 395
+Philosopher 403 is eating
+Philosopher 379 is eatingHeap available remain: 118888Philosopher 393 took chopstick 394
+Philosopher 369 returned chopstick 369
+Philosopher 368 took chopstick 369Philosopher 396 returned chopstick 397
+Philosopher 393 is eatingPhilosopher 405 took chopstick 405Philosopher 397 took chopstick 397
+
+
+
+
+Philosopher 368 is eating
+Philosopher 394 returned chopstick 394Philosopher 363 returned chopstick 364
+
+
+Heap available remain: 118888
+Philosopher 376 returned chopstick 377
+
+Philosopher 396 returned chopstick 396Philosopher 363 returned chopstick 363
+Philosopher 389 returned chopstick 390Philosopher 362 took chopstick 363
+
+Philosopher 362 is eatingPhilosopher 375 took chopstick 376
+Heap available remain: 118888Philosopher 405 took chopstick 406
+
+Philosopher 375 is eating
+Philosopher 395 took chopstick 396
+Philosopher 376 returned chopstick 376Philosopher 395 is eating
+Philosopher 399 returned chopstick 400Philosopher 405 is eatingPhilosopher 388 took chopstick 389
+Heap available remain: 123720Philosopher 407 took chopstick 407Philosopher 388 is eating
+Philosopher 389 returned chopstick 389
+
+Philosopher 400 took chopstick 400
+Philosopher 399 returned chopstick 399Philosopher 398 took chopstick 399
+
+Philosopher 404 took chopstick 404
+
+
+
+
+
+Philosopher 398 is eating
+
+Philosopher 408 took chopstick 408Heap available remain: 121304
+Philosopher 403 returned chopstick 404
+
+Philosopher 409 took chopstick 409Philosopher 379 returned chopstick 380Philosopher 393 returned chopstick 394
+Heap available remain: 121304
+
+
+Philosopher 403 returned chopstick 403Philosopher 402 took chopstick 403Philosopher 393 returned chopstick 393
+Philosopher 410 took chopstick 410Heap available remain: 123720
+
+Philosopher 392 took chopstick 393
+Philosopher 368 returned chopstick 369Heap available remain: 123720
+
+Philosopher 392 is eatingPhilosopher 412 took chopstick 412
+
+Philosopher 379 returned chopstick 379Philosopher 411 took chopstick 411
+
+Heap available remain: 121304
+
+Philosopher 368 returned chopstick 368
+Philosopher 367 took chopstick 368
+
+Philosopher 402 is eatingPhilosopher 413 took chopstick 413
+Philosopher 367 is eating
+Heap available remain: 121304
+Philosopher 413 took chopstick 414
+
+Philosopher 413 is eatingHeap available remain: 123720
+
+Philosopher 395 returned chopstick 396
+Philosopher 415 took chopstick 415Philosopher 395 returned chopstick 395Philosopher 375 returned chopstick 376
+Heap available remain: 121304
+Philosopher 362 returned chopstick 363
+
+
+Philosopher 416 took chopstick 416Philosopher 375 returned chopstick 375Philosopher 374 took chopstick 375
+Philosopher 374 is eatingPhilosopher 388 returned chopstick 389
+
+Philosopher 362 returned chopstick 362
+Philosopher 361 took chopstick 362
+
+Philosopher 361 is eatingPhilosopher 398 returned chopstick 399Philosopher 406 took chopstick 406
+
+Philosopher 405 returned chopstick 406
+
+
+Philosopher 416 took chopstick 417Philosopher 388 returned chopstick 388Philosopher 398 returned chopstick 398
+Philosopher 404 took chopstick 405
+Philosopher 397 took chopstick 398Heap available remain: 118888Philosopher 404 is eatingPhilosopher 392 returned chopstick 393
+Philosopher 405 returned chopstick 405
+
+Philosopher 387 took chopstick 388
+
+Philosopher 387 is eating
+Philosopher 392 returned chopstick 392Philosopher 391 took chopstick 392
+Philosopher 397 is eatingPhilosopher 391 is eating
+
+
+Philosopher 367 returned chopstick 368
+Philosopher 367 returned chopstick 367
+Heap available remain: 126136
+
+
+Philosopher 402 returned chopstick 403
+Philosopher 414 took chopstick 414Heap available remain: 130968Philosopher 402 returned chopstick 402
+Philosopher 413 returned chopstick 414
+
+Philosopher 418 took chopstick 418Philosopher 413 returned chopstick 413
+
+
+Philosopher 416 is eatingPhilosopher 419 took chopstick 419
+Philosopher 412 took chopstick 413
+Philosopher 374 returned chopstick 375
+
+
+Philosopher 412 is eating
+Philosopher 401 took chopstick 402Philosopher 374 returned chopstick 374
+Philosopher 373 took chopstick 374Philosopher 419 took chopstick 420
+
+Philosopher 419 is eatingHeap available remain: 133384
+Philosopher 373 is eatingPhilosopher 401 is eating
+Philosopher 361 returned chopstick 362
+
+
+
+Philosopher 361 returned chopstick 361
+Philosopher 360 took chopstick 361
+Philosopher 360 is eating
+Heap available remain: 135800
+Philosopher 421 took chopstick 421
+Heap available remain: 133384
+Philosopher 404 returned chopstick 405
+Philosopher 422 took chopstick 422
+Philosopher 404 returned chopstick 404
+Heap available remain: 133384
+Philosopher 422 took chopstick 423
+Philosopher 422 is eating
+Philosopher 397 returned chopstick 398
+Heap available remain: 130968Philosopher 391 returned chopstick 392
+Philosopher 391 returned chopstick 391
+
+Philosopher 387 returned chopstick 388
+Philosopher 397 returned chopstick 397
+Heap available remain: 130968
+Philosopher 387 returned chopstick 387Philosopher 416 returned chopstick 417Philosopher 417 took chopstick 417
+Philosopher 386 took chopstick 387Heap available remain: 130968
+Philosopher 424 took chopstick 424Philosopher 425 took chopstick 425
+
+
+Philosopher 386 is eating
+Heap available remain: 130968Philosopher 412 returned chopstick 413
+
+Philosopher 426 took chopstick 426
+Philosopher 412 returned chopstick 412
+
+
+Philosopher 416 returned chopstick 416
+Philosopher 401 returned chopstick 402
+Philosopher 411 took chopstick 412Philosopher 427 took chopstick 427Philosopher 401 returned chopstick 401
+Philosopher 373 returned chopstick 374
+Philosopher 420 took chopstick 420Philosopher 415 took chopstick 416Philosopher 360 returned chopstick 361
+Philosopher 400 took chopstick 401
+Philosopher 419 returned chopstick 420
+
+
+Philosopher 372 took chopstick 373Philosopher 411 is eating
+
+Philosopher 422 returned chopstick 423
+Heap available remain: 130968
+Philosopher 373 returned chopstick 373Philosopher 422 returned chopstick 422Philosopher 421 took chopstick 422
+
+Philosopher 421 is eating
+Philosopher 372 is eating
+Philosopher 360 returned chopstick 360
+
+Philosopher 359 took chopstick 360
+
+Philosopher 428 took chopstick 428
+Heap available remain: 135800Philosopher 400 is eating
+Philosopher 419 returned chopstick 419Philosopher 415 is eating
+Philosopher 359 is eatingPhilosopher 423 took chopstick 423
+
+Philosopher 418 took chopstick 419
+Philosopher 386 returned chopstick 387
+
+
+Philosopher 418 is eating
+Philosopher 428 took chopstick 429Heap available remain: 140632
+
+Philosopher 428 is eatingPhilosopher 386 returned chopstick 386
+Philosopher 385 took chopstick 386
+
+Philosopher 385 is eating
+
+Philosopher 430 took chopstick 430
+Heap available remain: 140632
+Philosopher 431 took chopstick 431Heap available remain: 138216
+
+Philosopher 432 took chopstick 432
+Heap available remain: 138216
+Philosopher 433 took chopstick 433
+Heap available remain: 135800
+Philosopher 434 took chopstick 434
+Heap available remain: 133384
+Philosopher 435 took chopstick 435
+Heap available remain: 130968
+Philosopher 435 took chopstick 436
+Philosopher 435 is eating
+Heap available remain: 128552
+Philosopher 437 took chopstick 437
+Heap available remain: 126136
+Philosopher 438 took chopstick 438Heap available remain: 123720
+
+Philosopher 411 returned chopstick 412
+Philosopher 421 returned chopstick 422
+Philosopher 372 returned chopstick 373Philosopher 411 returned chopstick 411
+Philosopher 410 took chopstick 411Philosopher 421 returned chopstick 421
+Philosopher 420 took chopstick 421
+
+Philosopher 439 took chopstick 439
+Philosopher 372 returned chopstick 372
+Philosopher 415 returned chopstick 416
+Philosopher 420 is eatingHeap available remain: 121304
+Philosopher 400 returned chopstick 401
+Philosopher 418 returned chopstick 419Philosopher 359 returned chopstick 360
+
+Philosopher 400 returned chopstick 400
+Philosopher 415 returned chopstick 415
+Philosopher 429 took chopstick 429Philosopher 385 returned chopstick 386
+
+Philosopher 410 is eatingPhilosopher 428 returned chopstick 429
+Philosopher 359 returned chopstick 359Philosopher 358 took chopstick 359Philosopher 417 took chopstick 418
+Philosopher 439 took chopstick 440
+Philosopher 385 returned chopstick 385Philosopher 414 took chopstick 415Philosopher 439 is eating
+Philosopher 384 took chopstick 385
+Philosopher 418 returned chopstick 418Philosopher 384 is eatingPhilosopher 428 returned chopstick 428
+Philosopher 427 took chopstick 428
+Philosopher 427 is eating
+
+
+Philosopher 435 returned chopstick 436
+Philosopher 436 took chopstick 436
+
+
+Philosopher 435 returned chopstick 435
+
+
+Philosopher 414 is eating
+Philosopher 417 is eatingPhilosopher 358 is eating
+
+
+Heap available remain: 135800
+
+Philosopher 434 took chopstick 435
+
+Philosopher 434 is eating
+Philosopher 441 took chopstick 441
+Heap available remain: 133384
+Philosopher 442 took chopstick 442
+Heap available remain: 135800
+Philosopher 442 took chopstick 443
+Philosopher 442 is eating
+Philosopher 420 returned chopstick 421
+Philosopher 420 returned chopstick 420
+Heap available remain: 135800
+Philosopher 444 took chopstick 444
+Heap available remain: 133384
+Philosopher 445 took chopstick 445
+Heap available remain: 130968Philosopher 445 took chopstick 446
+Philosopher 445 is eating
+
+Heap available remain: 130968
+Philosopher 447 took chopstick 447
+Heap available remain: 128552
+Philosopher 447 took chopstick 448
+Philosopher 447 is eating
+Heap available remain: 126136
+Philosopher 449 took chopstick 449
+Heap available remain: 123720
+Philosopher 450 took chopstick 450
+Heap available remain: 121304
+Philosopher 451 took chopstick 451
+Heap available remain: 118888
+Philosopher 410 returned chopstick 411Philosopher 427 returned chopstick 428
+Philosopher 452 took chopstick 452Philosopher 384 returned chopstick 385
+Philosopher 440 took chopstick 440
+
+Philosopher 439 returned chopstick 440Philosopher 410 returned chopstick 410
+
+Philosopher 414 returned chopstick 415Heap available remain: 116472
+Philosopher 427 returned chopstick 427
+Philosopher 452 took chopstick 453Philosopher 409 took chopstick 410
+Philosopher 384 returned chopstick 384
+Philosopher 383 took chopstick 384
+Philosopher 434 returned chopstick 435
+Philosopher 358 returned chopstick 359Heap available remain: 116472
+
+Philosopher 426 took chopstick 427
+Philosopher 442 returned chopstick 443Philosopher 426 is eatingPhilosopher 443 took chopstick 443
+
+
+Philosopher 439 returned chopstick 439Philosopher 433 took chopstick 434Philosopher 358 returned chopstick 358
+Philosopher 452 is eating
+
+Philosopher 442 returned chopstick 442
+Philosopher 417 returned chopstick 418
+
+Philosopher 417 returned chopstick 417Philosopher 414 returned chopstick 414
+Philosopher 434 returned chopstick 434
+
+Philosopher 409 is eating
+Philosopher 454 took chopstick 454
+
+Philosopher 441 took chopstick 442
+Philosopher 447 returned chopstick 448
+Philosopher 445 returned chopstick 446Philosopher 447 returned chopstick 447
+Philosopher 438 took chopstick 439
+
+Philosopher 438 is eatingPhilosopher 383 is eatingPhilosopher 441 is eating
+Philosopher 446 took chopstick 446
+
+
+Philosopher 357 took chopstick 358
+Heap available remain: 118888Philosopher 357 is eating
+
+Philosopher 448 took chopstick 448
+Philosopher 445 returned chopstick 445
+Philosopher 446 took chopstick 447
+
+Philosopher 446 is eatingPhilosopher 454 took chopstick 455
+
+Philosopher 454 is eatingPhilosopher 433 is eating
+
+Heap available remain: 133384
+
+Philosopher 444 took chopstick 445
+Philosopher 444 is eating
+Philosopher 456 took chopstick 456
+Heap available remain: 133384
+Philosopher 456 took chopstick 457
+Philosopher 456 is eating
+Heap available remain: 130968
+Philosopher 458 took chopstick 458
+Heap available remain: 128552
+Philosopher 426 returned chopstick 427
+Philosopher 458 took chopstick 459
+Philosopher 426 returned chopstick 426
+Philosopher 425 took chopstick 426
+Philosopher 458 is eatingPhilosopher 425 is eatingPhilosopher 452 returned chopstick 453
+Philosopher 453 took chopstick 453
+
+Philosopher 409 returned chopstick 410
+Philosopher 452 returned chopstick 452
+Philosopher 451 took chopstick 452
+Philosopher 408 took chopstick 409
+Heap available remain: 126136
+Philosopher 409 returned chopstick 409Philosopher 441 returned chopstick 442
+Philosopher 408 is eatingHeap available remain: 128552
+Philosopher 460 took chopstick 460
+
+Heap available remain: 126136Philosopher 440 took chopstick 441
+Philosopher 357 returned chopstick 358
+
+
+Philosopher 461 took chopstick 461Philosopher 441 returned chopstick 441
+
+Philosopher 383 returned chopstick 384Philosopher 440 is eating
+Philosopher 357 returned chopstick 357Philosopher 356 took chopstick 357
+Philosopher 438 returned chopstick 439Philosopher 451 is eating
+
+Philosopher 433 returned chopstick 434Philosopher 383 returned chopstick 383
+Philosopher 446 returned chopstick 447
+Philosopher 454 returned chopstick 455
+
+
+Philosopher 462 took chopstick 462Philosopher 456 returned chopstick 457Philosopher 454 returned chopstick 454
+Philosopher 455 took chopstick 455
+
+Philosopher 444 returned chopstick 445
+
+Philosopher 433 returned chopstick 433Philosopher 446 returned chopstick 446Philosopher 425 returned chopstick 426
+Philosopher 457 took chopstick 457Heap available remain: 126136
+Philosopher 438 returned chopstick 438
+Philosopher 356 is eatingPhilosopher 432 took chopstick 433
+
+Philosopher 444 returned chopstick 444
+Philosopher 458 returned chopstick 459
+Philosopher 459 took chopstick 459Philosopher 458 returned chopstick 458
+
+Philosopher 437 took chopstick 438
+Heap available remain: 133384Philosopher 437 is eating
+Philosopher 432 is eating
+
+
+
+Philosopher 455 took chopstick 456Philosopher 463 took chopstick 463
+Philosopher 424 took chopstick 425Philosopher 382 took chopstick 383
+
+
+Philosopher 464 took chopstick 464Philosopher 440 returned chopstick 441Heap available remain: 143048
+Philosopher 425 returned chopstick 425Philosopher 408 returned chopstick 409
+Philosopher 457 took chopstick 458Philosopher 465 took chopstick 465
+
+Philosopher 443 took chopstick 444
+Philosopher 456 returned chopstick 456
+
+
+Philosopher 451 returned chopstick 452
+Philosopher 453 took chopstick 454
+
+Philosopher 424 is eatingPhilosopher 451 returned chopstick 451Philosopher 457 is eatingHeap available remain: 140632
+Philosopher 465 took chopstick 466Philosopher 440 returned chopstick 440
+Philosopher 453 is eating
+Philosopher 455 is eating
+
+
+Philosopher 382 is eating
+
+
+
+Heap available remain: 143048
+Philosopher 465 is eatingPhilosopher 467 took chopstick 467
+Philosopher 450 took chopstick 451
+
+Heap available remain: 143048
+
+Heap available remain: 143048Philosopher 450 is eatingPhilosopher 408 returned chopstick 408Philosopher 467 took chopstick 468
+
+Philosopher 407 took chopstick 408
+
+Philosopher 407 is eatingPhilosopher 356 returned chopstick 357
+
+Philosopher 467 is eating
+
+
+Philosopher 443 is eating
+Philosopher 356 returned chopstick 356Philosopher 469 took chopstick 469
+Heap available remain: 140632Philosopher 432 returned chopstick 433
+
+Philosopher 355 took chopstick 356Philosopher 469 took chopstick 470
+
+Philosopher 469 is eatingPhilosopher 432 returned chopstick 432
+Philosopher 431 took chopstick 432
+
+Philosopher 437 returned chopstick 438
+
+Philosopher 355 is eating
+Heap available remain: 140632
+Philosopher 431 is eatingPhilosopher 437 returned chopstick 437
+
+Philosopher 436 took chopstick 437Philosopher 471 took chopstick 471
+Heap available remain: 143048
+Philosopher 471 took chopstick 472
+Heap available remain: 143048
+Philosopher 471 is eating
+
+Philosopher 436 is eating
+Philosopher 473 took chopstick 473
+Heap available remain: 140632Philosopher 455 returned chopstick 456
+Philosopher 453 returned chopstick 454Philosopher 457 returned chopstick 458
+Philosopher 466 took chopstick 466
+Philosopher 457 returned chopstick 457Philosopher 382 returned chopstick 383
+Philosopher 465 returned chopstick 466Philosopher 382 returned chopstick 382Heap available remain: 138216
+Philosopher 450 returned chopstick 451
+
+Philosopher 455 returned chopstick 455Philosopher 453 returned chopstick 453
+Philosopher 474 took chopstick 474
+Philosopher 424 returned chopstick 425
+
+Philosopher 467 returned chopstick 468Philosopher 407 returned chopstick 408
+Philosopher 450 returned chopstick 450Philosopher 449 took chopstick 450Philosopher 469 returned chopstick 470
+Philosopher 443 returned chopstick 444
+Philosopher 465 returned chopstick 465Philosopher 464 took chopstick 465Philosopher 468 took chopstick 468
+Philosopher 424 returned chopstick 424Philosopher 423 took chopstick 424
+
+
+
+
+Philosopher 406 took chopstick 407
+
+Philosopher 406 is eating
+
+Philosopher 449 is eatingPhilosopher 469 returned chopstick 469
+
+
+Philosopher 471 returned chopstick 472
+Philosopher 355 returned chopstick 356
+Philosopher 470 took chopstick 470Philosopher 467 returned chopstick 467
+Philosopher 468 took chopstick 469
+Heap available remain: 143048
+
+Philosopher 431 returned chopstick 432
+Philosopher 472 took chopstick 472Philosopher 431 returned chopstick 431Philosopher 430 took chopstick 431
+Philosopher 423 is eatingPhilosopher 430 is eating
+Philosopher 355 returned chopstick 355
+Philosopher 443 returned chopstick 443
+Philosopher 354 took chopstick 355Philosopher 475 took chopstick 475
+Philosopher 470 took chopstick 471
+
+Philosopher 464 is eating
+Philosopher 407 returned chopstick 407
+Philosopher 471 returned chopstick 471
+
+Philosopher 466 took chopstick 467
+Philosopher 436 returned chopstick 437
+
+Philosopher 436 returned chopstick 436Philosopher 476 took chopstick 476
+Heap available remain: 155128
+
+Philosopher 354 is eating
+
+Philosopher 470 is eating
+
+Philosopher 468 is eating
+Philosopher 476 took chopstick 477
+
+Philosopher 476 is eating
+
+Philosopher 466 is eating
+Heap available remain: 164792
+Philosopher 406 returned chopstick 407
+Philosopher 478 took chopstick 478
+Philosopher 406 returned chopstick 406
+Heap available remain: 164792
+Philosopher 478 took chopstick 479
+Philosopher 478 is eating
+Heap available remain: 162376
+Philosopher 480 took chopstick 480
+Heap available remain: 159960
+Philosopher 481 took chopstick 481
+Heap available remain: 159960
+Philosopher 482 took chopstick 482
+Heap available remain: 157544
+Philosopher 430 returned chopstick 431
+Heap available remain: 155128
+Philosopher 482 took chopstick 483
+Philosopher 482 is eating
+Philosopher 484 took chopstick 484
+Philosopher 429 took chopstick 430
+Heap available remain: 152712
+Philosopher 429 is eating
+Philosopher 430 returned chopstick 430
+Heap available remain: 150296
+Philosopher 485 took chopstick 485
+Philosopher 486 took chopstick 486
+Philosopher 423 returned chopstick 424
+Philosopher 423 returned chopstick 423Heap available remain: 150296
+
+Philosopher 449 returned chopstick 450
+Philosopher 464 returned chopstick 465
+Philosopher 486 took chopstick 487Philosopher 449 returned chopstick 449
+Philosopher 448 took chopstick 449Philosopher 464 returned chopstick 464
+Philosopher 468 returned chopstick 469Philosopher 476 returned chopstick 477
+Philosopher 477 took chopstick 477
+Heap available remain: 147880Philosopher 486 is eating
+Philosopher 448 is eatingPhilosopher 470 returned chopstick 471
+Philosopher 463 took chopstick 464Philosopher 468 returned chopstick 468
+
+
+Philosopher 463 is eatingPhilosopher 354 returned chopstick 355
+
+Philosopher 354 returned chopstick 354
+Philosopher 476 returned chopstick 476
+Philosopher 475 took chopstick 476Philosopher 478 returned chopstick 479
+
+Philosopher 488 took chopstick 488
+Philosopher 466 returned chopstick 467
+Philosopher 479 took chopstick 479
+
+Heap available remain: 155128
+
+Philosopher 482 returned chopstick 483
+
+Philosopher 470 returned chopstick 470Philosopher 475 is eating
+
+Philosopher 478 returned chopstick 478Philosopher 466 returned chopstick 466
+Philosopher 429 returned chopstick 430Philosopher 483 took chopstick 483
+Philosopher 482 returned chopstick 482
+Philosopher 477 took chopstick 478Heap available remain: 157544
+Philosopher 489 took chopstick 489
+Philosopher 429 returned chopstick 429
+
+Heap available remain: 157544
+
+Philosopher 481 took chopstick 482
+
+Heap available remain: 162376
+Philosopher 491 took chopstick 491
+Philosopher 490 took chopstick 490
+
+Philosopher 477 is eating
+Philosopher 481 is eatingHeap available remain: 159960
+Philosopher 492 took chopstick 492
+
+Philosopher 493 took chopstick 493
+Heap available remain: 159960
+Philosopher 486 returned chopstick 487Philosopher 487 took chopstick 487
+
+Philosopher 493 took chopstick 494
+Philosopher 493 is eatingPhilosopher 486 returned chopstick 486
+Heap available remain: 157544Philosopher 485 took chopstick 486
+Philosopher 463 returned chopstick 464
+
+
+Philosopher 485 is eatingPhilosopher 495 took chopstick 495
+Philosopher 463 returned chopstick 463
+Heap available remain: 155128
+
+Philosopher 462 took chopstick 463
+Philosopher 475 returned chopstick 476Philosopher 462 is eating
+
+Philosopher 448 returned chopstick 449
+Heap available remain: 157544
+Philosopher 475 returned chopstick 475Philosopher 474 took chopstick 475
+Philosopher 495 took chopstick 496Heap available remain: 155128
+Philosopher 497 took chopstick 497Philosopher 474 is eating
+
+
+Philosopher 498 took chopstick 498
+
+Philosopher 448 returned chopstick 448
+Heap available remain: 152712Philosopher 495 is eating
+
+Philosopher 498 took chopstick 499
+Philosopher 499 took chopstick 499
+Philosopher 498 is eating
+Philosopher 477 returned chopstick 478
+Philosopher 477 returned chopstick 477
+Philosopher 481 returned chopstick 482
+Philosopher 481 returned chopstick 481
+Philosopher 480 took chopstick 481
+Philosopher 480 is eating
+Philosopher 493 returned chopstick 494
+Philosopher 494 took chopstick 494
+Philosopher 492 took chopstick 493
+Philosopher 492 is eating
+Philosopher 493 returned chopstick 493
+Philosopher 485 returned chopstick 486
+Philosopher 485 returned chopstick 485
+Philosopher 484 took chopstick 485
+Philosopher 484 is eating
+Philosopher 462 returned chopstick 463
+Philosopher 462 returned chopstick 462
+Philosopher 461 took chopstick 462
+Philosopher 461 is eating
+Philosopher 474 returned chopstick 475
+Philosopher 474 returned chopstick 474
+Philosopher 473 took chopstick 474
+Philosopher 473 is eating
+Philosopher 495 returned chopstick 496
+Philosopher 496 took chopstick 496
+Philosopher 495 returned chopstick 495
+Philosopher 494 took chopstick 495
+Philosopher 494 is eating
+Philosopher 498 returned chopstick 499
+Philosopher 499 took chopstick 0
+Philosopher 499 is eating
+Philosopher 497 took chopstick 498
+Philosopher 497 is eating
+Philosopher 480 returned chopstick 481
+Philosopher 498 returned chopstick 498
+Philosopher 480 returned chopstick 480
+Philosopher 479 took chopstick 480
+Philosopher 479 is eating
+Philosopher 492 returned chopstick 493
+Philosopher 492 returned chopstick 492
+Philosopher 491 took chopstick 492
+Philosopher 491 is eating
+Philosopher 484 returned chopstick 485
+Philosopher 484 returned chopstick 484
+Philosopher 483 took chopstick 484
+Philosopher 483 is eating
+Philosopher 461 returned chopstick 462
+Philosopher 461 returned chopstick 461
+Philosopher 460 took chopstick 461
+Philosopher 460 is eating
+Philosopher 473 returned chopstick 474
+Philosopher 473 returned chopstick 473
+Philosopher 472 took chopstick 473
+Philosopher 472 is eating
+Philosopher 494 returned chopstick 495
+Philosopher 494 returned chopstick 494
+Philosopher 497 returned chopstick 498
+Philosopher 499 returned chopstick 0
+Philosopher 499 returned chopstick 499
+Philosopher 496 took chopstick 497
+Philosopher 496 is eating
+Philosopher 497 returned chopstick 497
+Philosopher 479 returned chopstick 480
+Philosopher 479 returned chopstick 479
+Philosopher 491 returned chopstick 492
+Philosopher 491 returned chopstick 491
+Philosopher 490 took chopstick 491
+Philosopher 490 is eating
+Philosopher 483 returned chopstick 484
+Philosopher 483 returned chopstick 483
+Philosopher 460 returned chopstick 461
+Philosopher 460 returned chopstick 460
+Philosopher 459 took chopstick 460
+Philosopher 459 is eating
+Philosopher 472 returned chopstick 473
+Philosopher 472 returned chopstick 472
+Philosopher 496 returned chopstick 497
+Philosopher 496 returned chopstick 496
+Philosopher 490 returned chopstick 491
+Philosopher 490 returned chopstick 490
+Philosopher 489 took chopstick 490
+Philosopher 489 is eating
+Philosopher 459 returned chopstick 460
+Philosopher 459 returned chopstick 459
+Philosopher 489 returned chopstick 490
+Philosopher 489 returned chopstick 489
+Philosopher 488 took chopstick 489
+Philosopher 488 is eating
+Philosopher 488 returned chopstick 489
+Philosopher 488 returned chopstick 488
+Philosopher 487 took chopstick 488
+Philosopher 487 is eating
+Philosopher 487 returned chopstick 488
+Philosopher 487 returned chopstick 487
+Time end: 9485(tick)
+Done! No deadlock occurred!
