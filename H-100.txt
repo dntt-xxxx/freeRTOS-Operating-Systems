@@ -1,0 +1,716 @@
+11:28:58.103 -> 
+11:28:58.103 -> ---FreeRTOS Dining Philosophers Hierarchy Solution---
+11:28:58.103 -> 290188
+11:28:58.103 -> -0
+11:28:58.103 -> sau khi tao bin:
+11:28:58.103 -> 290088
+11:28:58.103 -> -100
+11:28:58.103 -> sau khi tao count:
+11:28:58.103 -> 289988
+11:28:58.103 -> -200
+11:28:58.103 -> sau khi tao mutex
+11:28:58.103 -> 279988
+11:28:58.103 -> -10200
+11:28:58.103 -> 275116
+11:28:58.103 -> -15072
+11:28:58.103 -> 272680
+11:28:58.103 -> -17508Philosopher 0 took chopstick 0265372262936
+11:28:58.103 -> 260500270244258064
+11:28:58.103 -> 
+11:28:58.103 -> 267808
+11:28:58.103 -> 
+11:28:58.103 -> 253192250756
+11:28:58.103 -> 248320Philosopher 1 took chopstick 1243448255628241012
+11:28:58.103 -> 
+11:28:58.103 -> 238576--
+11:28:58.103 -> 
+11:28:58.103 -> 245884-233704231268
+11:28:58.103 -> 
+11:28:58.103 -> 228832
+11:28:58.150 -> --
+11:28:58.150 -> 51612-223960221524-
+11:28:58.150 -> 
+11:28:58.150 -> 
+11:28:58.150 -> 
+11:28:58.150 -> 68664
+11:28:58.150 -> --216652-7353621421622639621178063792209344
+11:28:58.150 -> 20690866228Philosopher 8 took chopstick 8202036199600-
+11:28:58.150 -> -
+11:28:58.150 -> 
+11:28:58.150 -> -194728-192292
+11:28:58.150 -> 97896189856
+11:28:58.150 -> 
+11:28:58.150 -> 187420
+11:28:58.150 -> Philosopher 9 took chopstick 9182548
+11:28:58.150 -> 
+11:28:58.150 -> 
+11:28:58.150 -> 
+11:28:58.150 -> 
+11:28:58.150 -> Philosopher 7 took chopstick 7204472
+11:28:58.150 -> 17767656484
+11:28:58.150 -> --172804-117384170368Philosopher 10 took chopstick 10165496163060Philosopher 1 took chopstick 2158188
+11:28:58.150 -> 155752
+11:28:58.150 -> -73536
+11:28:58.150 -> 
+11:28:58.150 -> 150880148444236140146008
+11:28:58.150 -> 
+11:28:58.150 -> 143572--180112219088
+11:28:58.150 -> 139072-
+11:28:58.150 -> 
+11:28:58.150 -> -
+11:28:58.150 -> 151116136264133828197164131392
+11:28:58.150 -> 
+11:28:58.150 -> 12895611738412652073536124084167932121648
+11:28:58.150 -> 
+11:28:58.150 -> 119212
+11:28:58.197 -> -160624
+11:28:58.197 -> 
+11:28:58.197 -> 114340111904-
+11:28:58.197 -> -
+11:28:58.197 -> 134436178284Philosopher 5 took chopstick 5104596
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 10216018498499724
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 146616-9485292416
+11:28:58.197 -> 
+11:28:58.197 -> 177676-
+11:28:58.197 -> 87544851089058882672
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> -77800
+11:28:58.197 -> 75364--
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> -704929546068056
+11:28:58.197 -> 
+11:28:58.197 -> 65620
+11:28:58.197 -> Philosopher 31 took chopstick 316074817097658312
+11:28:58.197 -> -
+11:28:58.197 -> --
+11:28:58.197 -> 5587653440180720-
+11:28:58.197 -> -
+11:28:58.197 -> 
+11:28:58.197 -> 5100448568-
+11:28:58.197 -> -
+11:28:58.197 -> --43696
+11:28:58.197 -> 24649241260-
+11:28:58.197 -> 3882497288Philosopher 26 took chopstick 26-
+11:28:58.197 -> 36388151116
+11:28:58.197 -> 
+11:28:58.197 -> 
+11:28:58.197 -> --Philosopher 38 took chopstick 38Philosopher 19 took chopstick 19-
+11:28:58.197 -> 
+11:28:58.197 -> 253800-
+11:28:58.197 -> 
+11:28:58.197 -> Philosopher 15 took chopstick 1580236
+11:28:58.197 -> 
+11:28:58.197 -> --93024253800
+11:28:58.197 -> 
+11:28:58.244 -> 
+11:28:58.244 -> 21482472928
+11:28:58.244 -> 
+11:28:58.244 -> 
+11:28:58.244 -> ---Philosopher 6 took chopstick 6
+11:28:58.244 -> 
+11:28:58.244 -> 
+11:28:58.244 -> -51612--
+11:28:58.244 -> -25380025380063184
+11:28:58.244 -> 116776
+11:28:58.244 -> 
+11:28:58.244 -> 153316--
+11:28:58.244 -> -253800234312
+11:28:58.244 -> Philosopher 44 took chopstick 44239184
+11:28:58.244 -> 
+11:28:58.244 -> 
+11:28:58.244 -> Philosopher 33 took chopstick 33107032
+11:28:58.244 -> 
+11:28:58.244 -> --
+11:28:58.244 -> 253800--46132
+11:28:58.244 -> 
+11:28:58.244 -> 246492
+11:28:58.244 -> 
+11:28:58.244 -> 146616-
+11:28:58.244 -> 
+11:28:58.244 -> 253800-Philosopher 21 took chopstick 21Philosopher 44 took chopstick 45
+11:28:58.244 -> 
+11:28:58.244 -> 36388253800
+11:28:58.244 -> 
+11:28:58.244 -> --89980
+11:28:58.244 -> 253800
+11:28:58.244 -> 
+11:28:58.244 -> 
+11:28:58.244 -> -253800Philosopher 56 took chopstick 56Philosopher 3 took chopstick 3Philosopher 40 took chopstick 40Philosopher 26 took chopstick 27Philosopher 39 took chopstick 39
+11:28:58.244 -> 
+11:28:58.244 -> 212388-
+11:28:58.292 -> Philosopher 22 took chopstick 22-
+11:28:58.292 -> 214824
+11:28:58.292 -> 
+11:28:58.292 -> Philosopher 12 took chopstick 12253800
+11:28:58.292 -> 
+11:28:58.292 -> 253800-253800
+11:28:58.292 -> 
+11:28:58.292 -> 
+11:28:58.292 -> -253800-61356
+11:28:58.292 -> Philosopher 4 took chopstick 4
+11:28:58.292 -> 
+11:28:58.292 -> Philosopher 22 took chopstick 23-
+11:28:58.292 -> 
+11:28:58.292 -> --253800253800109468-
+11:28:58.292 -> 
+11:28:58.292 -> 
+11:28:58.292 -> Philosopher 87 took chopstick 87-
+11:28:58.292 -> 
+11:28:58.292 -> 253800Philosopher 34 took chopstick 34-
+11:28:58.292 -> 241620253800
+11:28:58.292 -> 
+11:28:58.292 -> 
+11:28:58.292 -> -Philosopher 51 took chopstick 51-
+11:28:58.292 -> Philosopher 10 took chopstick 11-
+11:28:58.292 -> Philosopher 93 took chopstick 93
+11:28:58.292 -> 248928141136
+11:28:58.292 -> 
+11:28:58.292 -> 
+11:28:58.292 -> Philosopher 54 took chopstick 54
+11:28:58.292 -> 
+11:28:58.292 -> -195336253800
+11:28:58.292 -> 
+11:28:58.292 -> 
+11:28:58.292 -> 202644Philosopher 28 took chopstick 28-
+11:28:58.292 -> 
+11:28:58.292 -> --
+11:28:58.292 -> 253800253800Philosopher 77 took chopstick 77
+11:28:58.339 -> 
+11:28:58.339 -> -Philosopher 26 is eating
+11:28:58.339 -> 
+11:28:58.339 -> Philosopher 30 took chopstick 30Philosopher 28 took chopstick 29-
+11:28:58.339 -> Philosopher 32 took chopstick 32
+11:28:58.339 -> 
+11:28:58.339 -> 219696Philosopher 19 took chopstick 20253800
+11:28:58.339 -> Philosopher 82 took chopstick 82253800253800
+11:28:58.339 -> 253800
+11:28:58.339 -> 
+11:28:58.339 -> 
+11:28:58.339 -> Philosopher 15 took chopstick 16253800234312
+11:28:58.339 -> Philosopher 22 is eating253800
+11:28:58.339 -> 
+11:28:58.339 -> 
+11:28:58.339 -> Philosopher 65 took chopstick 65Philosopher 13 took chopstick 13Philosopher 89 took chopstick 89Philosopher 49 took chopstick 49-
+11:28:58.339 -> 239184
+11:28:58.339 -> 
+11:28:58.339 -> 
+11:28:58.339 -> -Philosopher 67 took chopstick 67Philosopher 90 took chopstick 90244056
+11:28:58.386 -> Philosopher 69 took chopstick 69253800
+11:28:58.386 -> 253800-Philosopher 70 took chopstick 70-
+11:28:58.386 -> 253800-Philosopher 10 is eating
+11:28:58.386 -> 
+11:28:58.386 -> --Philosopher 51 took chopstick 52253800253800-
+11:28:58.386 -> 253800253800
+11:28:58.386 -> Philosopher 73 took chopstick 73Philosopher 93 took chopstick 94117384
+11:28:58.386 -> 253800
+11:28:58.386 -> 
+11:28:58.386 -> 
+11:28:58.386 -> 
+11:28:58.386 -> 
+11:28:58.386 -> 253800Philosopher 76 took chopstick 76253800
+11:28:58.386 -> 
+11:28:58.386 -> 253800Philosopher 42 took chopstick 42253800Philosopher 59 took chopstick 59Philosopher 40 took chopstick 41Philosopher 77 took chopstick 78Philosopher 43 took chopstick 43
+11:28:58.386 -> 
+11:28:58.386 -> 
+11:28:58.386 -> Philosopher 61 took chopstick 61Philosopher 19 is eating
+11:28:58.433 -> 
+11:28:58.433 -> 
+11:28:58.433 -> Philosopher 63 took chopstick 63Philosopher 17 took chopstick 17Philosopher 46 took chopstick 46Philosopher 64 took chopstick 64Philosopher 84 took chopstick 84
+11:28:58.433 -> 
+11:28:58.433 -> 
+11:28:58.433 -> Philosopher 15 is eating253800
+11:28:58.433 -> 
+11:28:58.433 -> 253800
+11:28:58.433 -> 
+11:28:58.433 -> 
+11:28:58.433 -> 253800
+11:28:58.433 -> 253800253800
+11:28:58.433 -> Philosopher 91 took chopstick 91
+11:28:58.433 -> 
+11:28:58.433 -> 253800Philosopher 49 took chopstick 50Philosopher 87 took chopstick 88253800253800
+11:28:58.433 -> 
+11:28:58.433 -> 
+11:28:58.433 -> Philosopher 72 took chopstick 72Philosopher 91 took chopstick 92253800Philosopher 44 is eating253800
+11:28:58.433 -> 
+11:28:58.433 -> 
+11:28:58.433 -> -Philosopher 98 took chopstick 98
+11:28:58.433 -> 
+11:28:58.480 -> 253800Philosopher 70 took chopstick 71
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> Philosopher 93 is eatingPhilosopher 57 took chopstick 57253800
+11:28:58.480 -> Philosopher 54 took chopstick 55Philosopher 79 took chopstick 79Philosopher 58 took chopstick 58
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> Philosopher 11 took chopstick 11
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> Philosopher 77 is eatingPhilosopher 60 took chopstick 60
+11:28:58.480 -> 
+11:28:58.480 -> Philosopher 1 is eating
+11:28:58.480 -> 
+11:28:58.480 -> 
+11:28:58.480 -> Philosopher 27 took chopstick 27Philosopher 82 took chopstick 83Philosopher 26 returned chopstick 27
+11:28:58.480 -> 234312Philosopher 26 returned chopstick 26Philosopher 48 took chopstick 48
+11:28:58.480 -> 
+11:28:58.480 -> -
+11:28:58.480 -> 253800Philosopher 35 took chopstick 35253800
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 36 took chopstick 36Philosopher 13 took chopstick 14
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 87 is eatingPhilosopher 20 took chopstick 20
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 91 is eating
+11:28:58.528 -> 
+11:28:58.528 -> 253800Philosopher 74 took chopstick 74
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 70 is eating
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 98 took chopstick 99
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 98 is eatingPhilosopher 10 returned chopstick 11Philosopher 28 is eating
+11:28:58.528 -> 
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 40 is eatingPhilosopher 79 took chopstick 80
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 79 is eating
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 47 took chopstick 47
+11:28:58.528 -> 
+11:28:58.528 -> Philosopher 66 took chopstick 66
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 25 took chopstick 25Philosopher 45 took chopstick 45
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 13 is eatingPhilosopher 19 returned chopstick 20253800
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 96 took chopstick 96Philosopher 23 took chopstick 23Philosopher 75 took chopstick 75
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 81 took chopstick 81
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 62 took chopstick 62Philosopher 10 returned chopstick 10Philosopher 85 took chopstick 85
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 68 took chopstick 68
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 53 took chopstick 53Philosopher 44 returned chopstick 45
+11:28:58.574 -> 
+11:28:58.574 -> 
+11:28:58.574 -> Philosopher 95 took chopstick 95
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 22 returned chopstick 23
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 15 returned chopstick 16
+11:28:58.622 -> 
+11:28:58.622 -> 
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 15 returned chopstick 15
+11:28:58.622 -> 
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 82 is eating
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 1 returned chopstick 2Philosopher 17 took chopstick 18
+11:28:58.622 -> 
+11:28:58.622 -> Philosopher 17 is eatingPhilosopher 44 returned chopstick 44Philosopher 85 took chopstick 86Philosopher 94 took chopstick 94Philosopher 70 returned chopstick 71Philosopher 97 took chopstick 97Philosopher 51 is eating
+11:28:58.622 -> Philosopher 21 took chopstick 22Philosopher 28 returned chopstick 29Philosopher 36 took chopstick 37Philosopher 9 took chopstick 10
+11:28:58.669 -> Philosopher 54 is eatingPhilosopher 25 took chopstick 26Philosopher 2 took chopstick 2Philosopher 24 took chopstick 24
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 49 is eatingPhilosopher 43 took chopstick 44
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 88 took chopstick 88
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 93 returned chopstick 94
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 71 took chopstick 71
+11:28:58.669 -> 
+11:28:58.669 -> 
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 29 took chopstick 29Philosopher 22 returned chopstick 22
+11:28:58.669 -> 
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 21 is eatingPhilosopher 27 took chopstick 28-
+11:28:58.669 -> Philosopher 9 is eating
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 25 is eating253800
+11:28:58.669 -> 
+11:28:58.669 -> Philosopher 87 returned chopstick 88Philosopher 91 returned chopstick 92Philosopher 43 is eatingPhilosopher 14 took chopstick 14Philosopher 85 is eatingPhilosopher 16 took chopstick 16Philosopher 77 returned chopstick 78
+11:28:58.716 -> 
+11:28:58.716 -> Philosopher 98 returned chopstick 99Philosopher 83 took chopstick 83Philosopher 80 took chopstick 80Philosopher 28 returned chopstick 28Philosopher 79 returned chopstick 80
+11:28:58.716 -> 
+11:28:58.716 -> 253800Philosopher 40 returned chopstick 41
+11:28:58.716 -> 
+11:28:58.716 -> Philosopher 27 is eating
+11:28:58.716 -> 
+11:28:58.716 -> 
+11:28:58.716 -> Philosopher 92 took chopstick 92
+11:28:58.716 -> 
+11:28:58.716 -> Philosopher 13 returned chopstick 14
+11:28:58.763 -> 
+11:28:58.763 -> 
+11:28:58.763 -> 
+11:28:58.763 -> Philosopher 78 took chopstick 78
+11:28:58.763 -> 
+11:28:58.763 -> 
+11:28:58.763 -> Philosopher 69 took chopstick 70Philosopher 76 took chopstick 77Philosopher 77 returned chopstick 77Philosopher 82 returned chopstick 83
+11:28:58.763 -> 
+11:28:58.763 -> 
+11:28:58.763 -> Philosopher 81 took chopstick 82Philosopher 97 took chopstick 98Philosopher 41 took chopstick 41Philosopher 79 returned chopstick 79Philosopher 17 returned chopstick 18
+11:28:58.763 -> 
+11:28:58.763 -> Philosopher 40 returned chopstick 40
+11:28:58.763 -> 
+11:28:58.763 -> Philosopher 0 took chopstick 1Philosopher 51 returned chopstick 52Philosopher 90 took chopstick 91Philosopher 91 returned chopstick 91Philosopher 93 returned chopstick 93Philosopher 12 took chopstick 13Philosopher 13 returned chopstick 13Philosopher 70 returned chopstick 70
+11:28:58.810 -> 
+11:28:58.810 -> Philosopher 92 took chopstick 93Philosopher 14 took chopstick 15
+11:28:58.810 -> 
+11:28:58.810 -> Philosopher 78 took chopstick 79Philosopher 82 returned chopstick 82Philosopher 36 is eating
+11:28:58.810 -> 
+11:28:58.810 -> Philosopher 98 returned chopstick 98
+11:28:58.810 -> 
+11:28:58.810 -> 
+11:28:58.810 -> Philosopher 81 is eating
+11:28:58.810 -> 
+11:28:58.810 -> Philosopher 39 took chopstick 40Philosopher 16 took chopstick 17Philosopher 17 returned chopstick 17Philosopher 87 returned chopstick 87Philosopher 1 returned chopstick 1Philosopher 27 returned chopstick 28Philosopher 49 returned chopstick 50Philosopher 43 returned chopstick 44
+11:28:58.857 -> 
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 51 returned chopstick 51
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 12 is eatingPhilosopher 69 is eating
+11:28:58.857 -> 
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 76 is eating
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 78 is eating
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 97 is eating
+11:28:58.857 -> 
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 21 returned chopstick 22
+11:28:58.857 -> 
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 55 took chopstick 55
+11:28:58.857 -> Philosopher 52 took chopstick 52Philosopher 50 took chopstick 50Philosopher 19 returned chopstick 19
+11:28:58.857 -> 
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 86 took chopstick 86Philosopher 85 returned chopstick 86
+11:28:58.857 -> 
+11:28:58.857 -> Philosopher 42 took chopstick 43Philosopher 43 returned chopstick 43Philosopher 90 is eatingPhilosopher 25 returned chopstick 26
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 24 took chopstick 25
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 18 took chopstick 18
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 16 is eatingPhilosopher 20 took chopstick 21Philosopher 21 returned chopstick 21
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 9 returned chopstick 10Philosopher 27 returned chopstick 27Philosopher 36 returned chopstick 37Philosopher 0 is eating
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 84 took chopstick 85Philosopher 25 returned chopstick 25Philosopher 92 is eating
+11:28:58.905 -> 
+11:28:58.905 -> Philosopher 39 is eating
+11:28:58.952 -> 
+11:28:58.952 -> 
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 20 is eatingPhilosopher 37 took chopstick 37
+11:28:58.952 -> 
+11:28:58.952 -> 
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 81 returned chopstick 82Philosopher 42 is eatingPhilosopher 50 took chopstick 51Philosopher 14 is eating
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 24 is eatingPhilosopher 54 returned chopstick 55Philosopher 86 took chopstick 87Philosopher 18 took chopstick 19
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 48 took chopstick 49Philosopher 49 returned chopstick 49
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 35 took chopstick 36
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 85 returned chopstick 85
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 50 is eating
+11:28:58.952 -> 
+11:28:58.952 -> Philosopher 69 returned chopstick 70
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 78 returned chopstick 79Philosopher 8 took chopstick 9Philosopher 9 returned chopstick 9Philosopher 97 returned chopstick 98
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 48 is eatingPhilosopher 35 is eatingPhilosopher 80 took chopstick 81Philosopher 81 returned chopstick 81
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 84 is eatingPhilosopher 86 is eating
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 18 is eating
+11:28:58.999 -> 
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 78 returned chopstick 78
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 97 returned chopstick 97
+11:28:58.999 -> 
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 12 returned chopstick 13
+11:28:58.999 -> 
+11:28:58.999 -> Philosopher 80 is eatingPhilosopher 53 took chopstick 54Philosopher 69 returned chopstick 69
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 36 returned chopstick 36Philosopher 92 returned chopstick 93Philosopher 39 returned chopstick 40
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 54 returned chopstick 54Philosopher 68 took chopstick 69
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 0 returned chopstick 1Philosopher 8 is eatingPhilosopher 96 took chopstick 97
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 16 returned chopstick 17
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 92 returned chopstick 92Philosopher 12 returned chopstick 12
+11:28:59.046 -> 
+11:28:59.046 -> 
+11:28:59.046 -> Philosopher 68 is eating
+11:28:59.046 -> Philosopher 14 returned chopstick 15Philosopher 76 returned chopstick 77Philosopher 96 is eating
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 11 took chopstick 12
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 24 returned chopstick 25Philosopher 53 is eating
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 90 returned chopstick 91
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 16 returned chopstick 16Philosopher 39 returned chopstick 39Philosopher 50 returned chopstick 51Philosopher 20 returned chopstick 21
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 11 is eating
+11:28:59.093 -> Philosopher 38 took chopstick 39Philosopher 75 took chopstick 76Philosopher 76 returned chopstick 76Philosopher 18 returned chopstick 19Philosopher 42 returned chopstick 43
+11:28:59.093 -> 
+11:28:59.093 -> 
+11:28:59.093 -> 
+11:28:59.093 -> 
+11:28:59.093 -> Philosopher 20 returned chopstick 20Philosopher 0 returned chopstick 0
+11:28:59.140 -> Philosopher 14 returned chopstick 14
+11:28:59.140 -> 
+11:28:59.140 -> 
+11:28:59.140 -> Philosopher 38 is eating
+11:28:59.140 -> Philosopher 90 returned chopstick 90
+11:28:59.140 -> 
+11:28:59.140 -> Philosopher 50 returned chopstick 50Philosopher 41 took chopstick 42Philosopher 42 returned chopstick 42Philosopher 99 took chopstick 99Philosopher 35 returned chopstick 36Philosopher 23 took chopstick 24
+11:28:59.140 -> 
+11:28:59.140 -> Philosopher 24 returned chopstick 24Philosopher 86 returned chopstick 87Philosopher 89 took chopstick 90Philosopher 75 is eating
+11:28:59.140 -> 
+11:28:59.140 -> Philosopher 48 returned chopstick 49
+11:28:59.140 -> 
+11:28:59.140 -> 
+11:28:59.140 -> Philosopher 84 returned chopstick 85
+11:28:59.187 -> 
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 83 took chopstick 84Philosopher 35 returned chopstick 35
+11:28:59.187 -> 
+11:28:59.187 -> 
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 18 returned chopstick 18Philosopher 8 returned chopstick 9Philosopher 47 took chopstick 48Philosopher 48 returned chopstick 48Philosopher 41 is eatingPhilosopher 80 returned chopstick 81Philosopher 84 returned chopstick 84
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 34 took chopstick 35
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 96 returned chopstick 97
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 99 took chopstick 0
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 68 returned chopstick 69Philosopher 53 returned chopstick 54
+11:28:59.187 -> 
+11:28:59.187 -> 
+11:28:59.187 -> Philosopher 47 is eating
+11:28:59.234 -> Philosopher 23 is eatingPhilosopher 86 returned chopstick 86Philosopher 34 is eatingPhilosopher 89 is eatingPhilosopher 95 took chopstick 96Philosopher 96 returned chopstick 96
+11:28:59.234 -> 
+11:28:59.234 -> Philosopher 7 took chopstick 8
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> Philosopher 80 returned chopstick 80Philosopher 83 is eating
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> 
+11:28:59.234 -> Philosopher 95 is eatingPhilosopher 8 returned chopstick 8Philosopher 7 is eatingPhilosopher 52 took chopstick 53Philosopher 67 took chopstick 68Philosopher 68 returned chopstick 68Philosopher 53 returned chopstick 53
+11:28:59.234 -> 
+11:28:59.234 -> Philosopher 11 returned chopstick 12Philosopher 75 returned chopstick 76
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 52 is eating
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 74 took chopstick 75Philosopher 75 returned chopstick 75Philosopher 99 is eatingPhilosopher 38 returned chopstick 39Philosopher 67 is eating
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 11 returned chopstick 11
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 74 is eatingPhilosopher 37 took chopstick 38Philosopher 38 returned chopstick 38
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 37 is eating
+11:28:59.281 -> 
+11:28:59.281 -> Philosopher 47 returned chopstick 48
+11:28:59.281 -> Philosopher 46 took chopstick 47
+11:28:59.329 -> Philosopher 46 is eating
+11:28:59.329 -> Philosopher 47 returned chopstick 47
+11:28:59.329 -> Philosopher 41 returned chopstick 42
+11:28:59.329 -> Philosopher 41 returned chopstick 41
+11:28:59.329 -> Philosopher 83 returned chopstick 84
+11:28:59.329 -> Philosopher 83 returned chopstick 83
+11:28:59.329 -> Philosopher 34 returned chopstick 35
+11:28:59.329 -> Philosopher 89 returned chopstick 90Philosopher 23 returned chopstick 24Philosopher 33 took chopstick 34Philosopher 34 returned chopstick 34
+11:28:59.329 -> 
+11:28:59.329 -> 
+11:28:59.329 -> Philosopher 88 took chopstick 89Philosopher 89 returned chopstick 89
+11:28:59.376 -> Philosopher 23 returned chopstick 23
+11:28:59.376 -> 
+11:28:59.376 -> 
+11:28:59.376 -> Philosopher 88 is eatingPhilosopher 33 is eatingPhilosopher 7 returned chopstick 8Philosopher 52 returned chopstick 53
+11:28:59.376 -> 
+11:28:59.376 -> 
+11:28:59.376 -> 
+11:28:59.376 -> Philosopher 52 returned chopstick 52Philosopher 7 returned chopstick 7Philosopher 6 took chopstick 7
+11:28:59.376 -> 
+11:28:59.376 -> Philosopher 6 is eating
+11:28:59.376 -> 
+11:28:59.376 -> Philosopher 95 returned chopstick 96Philosopher 67 returned chopstick 68Philosopher 99 returned chopstick 0
+11:28:59.376 -> 
+11:28:59.376 -> Philosopher 99 returned chopstick 99Philosopher 95 returned chopstick 95Philosopher 94 took chopstick 95Philosopher 74 returned chopstick 75Philosopher 37 returned chopstick 38
+11:28:59.423 -> 
+11:28:59.423 -> 
+11:28:59.423 -> Philosopher 66 took chopstick 67
+11:28:59.423 -> 
+11:28:59.423 -> 
+11:28:59.423 -> Philosopher 66 is eatingPhilosopher 73 took chopstick 74
+11:28:59.423 -> 
+11:28:59.423 -> Philosopher 94 is eatingPhilosopher 67 returned chopstick 67
+11:28:59.423 -> 
+11:28:59.423 -> Philosopher 46 returned chopstick 47Philosopher 74 returned chopstick 74Philosopher 73 is eating
+11:28:59.423 -> Philosopher 37 returned chopstick 37
+11:28:59.423 -> 
+11:28:59.423 -> 
+11:28:59.423 -> 
+11:28:59.423 -> Philosopher 45 took chopstick 46Philosopher 46 returned chopstick 46
+11:28:59.423 -> Philosopher 45 is eating
+11:28:59.423 -> 
+11:28:59.470 -> Philosopher 88 returned chopstick 89
+11:28:59.470 -> Philosopher 88 returned chopstick 88
+11:28:59.470 -> Philosopher 33 returned chopstick 34
+11:28:59.470 -> Philosopher 32 took chopstick 33
+11:28:59.470 -> Philosopher 32 is eatingPhilosopher 33 returned chopstick 33
+11:28:59.470 -> 
+11:28:59.470 -> Philosopher 6 returned chopstick 7
+11:28:59.470 -> Philosopher 5 took chopstick 6
+11:28:59.470 -> Philosopher 5 is eatingPhilosopher 6 returned chopstick 6
+11:28:59.470 -> 
+11:28:59.517 -> Philosopher 66 returned chopstick 67
+11:28:59.517 -> Philosopher 65 took chopstick 66
+11:28:59.517 -> Philosopher 65 is eating
+11:28:59.517 -> Philosopher 66 returned chopstick 66
+11:28:59.517 -> Philosopher 94 returned chopstick 95
+11:28:59.517 -> Philosopher 94 returned chopstick 94
+11:28:59.517 -> Philosopher 73 returned chopstick 74
+11:28:59.517 -> Philosopher 72 took chopstick 73Philosopher 73 returned chopstick 73
+11:28:59.517 -> Philosopher 72 is eating
+11:28:59.517 -> 
+11:28:59.517 -> Philosopher 45 returned chopstick 46
+11:28:59.564 -> Philosopher 45 returned chopstick 45
+11:28:59.564 -> Philosopher 32 returned chopstick 33
+11:28:59.564 -> Philosopher 31 took chopstick 32
+11:28:59.564 -> Philosopher 31 is eating
+11:28:59.564 -> Philosopher 32 returned chopstick 32
+11:28:59.564 -> Philosopher 5 returned chopstick 6
+11:28:59.564 -> Philosopher 4 took chopstick 5
+11:28:59.564 -> Philosopher 4 is eating
+11:28:59.564 -> Philosopher 5 returned chopstick 5
+11:28:59.612 -> Philosopher 65 returned chopstick 66
+11:28:59.612 -> Philosopher 64 took chopstick 65
+11:28:59.612 -> Philosopher 64 is eating
+11:28:59.612 -> Philosopher 65 returned chopstick 65
+11:28:59.612 -> Philosopher 72 returned chopstick 73
+11:28:59.612 -> Philosopher 71 took chopstick 72
+11:28:59.612 -> Philosopher 71 is eating
+11:28:59.659 -> Philosopher 72 returned chopstick 72
+11:28:59.659 -> Philosopher 31 returned chopstick 32
+11:28:59.659 -> Philosopher 30 took chopstick 31
+11:28:59.659 -> Philosopher 30 is eating
+11:28:59.659 -> Philosopher 31 returned chopstick 31
+11:28:59.659 -> Philosopher 4 returned chopstick 5
+11:28:59.659 -> Philosopher 3 took chopstick 4
+11:28:59.706 -> Philosopher 3 is eating
+11:28:59.706 -> Philosopher 4 returned chopstick 4
+11:28:59.706 -> Philosopher 64 returned chopstick 65
+11:28:59.706 -> Philosopher 63 took chopstick 64
+11:28:59.706 -> Philosopher 63 is eating
+11:28:59.706 -> Philosopher 64 returned chopstick 64
+11:28:59.706 -> Philosopher 71 returned chopstick 72
+11:28:59.753 -> Philosopher 71 returned chopstick 71
+11:28:59.753 -> Philosopher 30 returned chopstick 31
+11:28:59.753 -> Philosopher 29 took chopstick 30
+11:28:59.753 -> Philosopher 29 is eating
+11:28:59.753 -> Philosopher 30 returned chopstick 30
+11:28:59.753 -> Philosopher 3 returned chopstick 4
+11:28:59.801 -> Philosopher 2 took chopstick 3
+11:28:59.801 -> Philosopher 2 is eating
+11:28:59.801 -> Philosopher 3 returned chopstick 3
+11:28:59.801 -> Philosopher 63 returned chopstick 64
+11:28:59.801 -> Philosopher 62 took chopstick 63
+11:28:59.801 -> Philosopher 62 is eating
+11:28:59.801 -> Philosopher 63 returned chopstick 63
+11:28:59.849 -> Philosopher 29 returned chopstick 30
+11:28:59.849 -> Philosopher 29 returned chopstick 29
+11:28:59.896 -> Philosopher 2 returned chopstick 3
+11:28:59.896 -> Philosopher 2 returned chopstick 2
+11:28:59.896 -> Philosopher 62 returned chopstick 63
+11:28:59.896 -> Philosopher 61 took chopstick 62
+11:28:59.896 -> Philosopher 61 is eating
+11:28:59.896 -> Philosopher 62 returned chopstick 62
+11:28:59.991 -> Philosopher 61 returned chopstick 62
+11:28:59.991 -> Philosopher 60 took chopstick 61
+11:29:00.037 -> Philosopher 60 is eating
+11:29:00.037 -> Philosopher 61 returned chopstick 61
+11:29:00.132 -> Philosopher 60 returned chopstick 61
+11:29:00.132 -> Philosopher 59 took chopstick 60
+11:29:00.132 -> Philosopher 59 is eating
+11:29:00.132 -> Philosopher 60 returned chopstick 60
+11:29:00.226 -> Philosopher 59 returned chopstick 60
+11:29:00.226 -> Philosopher 58 took chopstick 59
+11:29:00.226 -> Philosopher 58 is eating
+11:29:00.226 -> Philosopher 59 returned chopstick 59
+11:29:00.320 -> Philosopher 58 returned chopstick 59
+11:29:00.320 -> Philosopher 57 took chopstick 58
+11:29:00.320 -> Philosopher 57 is eating
+11:29:00.320 -> Philosopher 58 returned chopstick 58
+11:29:00.415 -> Philosopher 57 returned chopstick 58
+11:29:00.415 -> Philosopher 56 took chopstick 57
+11:29:00.415 -> Philosopher 56 is eating
+11:29:00.415 -> Philosopher 57 returned chopstick 57
+11:29:00.511 -> Philosopher 56 returned chopstick 57
+11:29:00.511 -> Philosopher 55 took chopstick 56
+11:29:00.511 -> Philosopher 55 is eating
+11:29:00.511 -> Philosopher 56 returned chopstick 56
+11:29:00.605 -> Philosopher 55 returned chopstick 56
+11:29:00.605 -> Philosopher 55 returned chopstick 55
+11:29:00.605 -> 253800
+11:29:00.605 -> 36388
+11:29:00.605 -> Done! No deadlock occurred!

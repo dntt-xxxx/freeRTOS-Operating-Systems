@@ -1,0 +1,51 @@
+17:32:06.641 -> 
+17:32:06.641 -> ---FreeRTOS Dining Philosophers Arbitrator Solution---
+17:32:06.641 -> 290564
+17:32:06.641 -> -0
+17:32:06.641 -> 290464
+17:32:06.641 -> -100
+17:32:06.641 -> 290364
+17:32:06.641 -> -200
+17:32:06.641 -> 289864
+17:32:06.641 -> -700
+17:32:06.641 -> 289764
+17:32:06.641 -> -800
+17:32:06.641 -> 287328
+17:32:06.641 -> -3236
+17:32:06.641 -> Philosopher 0 took chopstick 0284892
+17:32:06.641 -> 
+17:32:06.641 -> -5672
+17:32:06.641 -> 282456
+17:32:06.641 -> -8108
+17:32:06.641 -> 280020
+17:32:06.641 -> -10544
+17:32:06.641 -> 277584
+17:32:06.641 -> -12980
+17:32:06.689 -> Philosopher 0 took chopstick 1
+17:32:06.689 -> Philosopher 0 is eating
+17:32:06.736 -> Philosopher 0 returned chopstick 1
+17:32:06.783 -> Philosopher 0 returned chopstick 0
+17:32:06.783 -> Philosopher 1 took chopstick 1
+17:32:06.783 -> Philosopher 1 took chopstick 2
+17:32:06.783 -> Philosopher 1 is eating
+17:32:06.877 -> Philosopher 1 returned chopstick 2
+17:32:06.877 -> Philosopher 1 returned chopstick 1
+17:32:06.877 -> Philosopher 2 took chopstick 2
+17:32:06.877 -> Philosopher 2 took chopstick 3
+17:32:06.877 -> Philosopher 2 is eating
+17:32:06.971 -> Philosopher 2 returned chopstick 3
+17:32:06.971 -> Philosopher 2 returned chopstick 2
+17:32:06.971 -> Philosopher 3 took chopstick 3
+17:32:06.971 -> Philosopher 3 took chopstick 4
+17:32:06.971 -> Philosopher 3 is eating
+17:32:07.065 -> Philosopher 3 returned chopstick 4
+17:32:07.112 -> Philosopher 3 returned chopstick 3
+17:32:07.112 -> Philosopher 4 took chopstick 4
+17:32:07.112 -> Philosopher 4 took chopstick 0
+17:32:07.112 -> Philosopher 4 is eating
+17:32:07.207 -> Philosopher 4 returned chopstick 0
+17:32:07.207 -> Philosopher 4 returned chopstick 4
+17:32:07.207 -> end
+17:32:07.207 -> 12980
+17:32:07.207 -> 277584
+17:32:07.207 -> Done! No deadlock occurred!

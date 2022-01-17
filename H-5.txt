@@ -1,0 +1,52 @@
+11:23:20.607 -> ---FreeRTOS Dining Philosophers Hierarchy Solution---
+11:23:20.607 -> 290572
+11:23:20.607 -> -0
+11:23:20.607 -> Time start: 1024(tick)
+11:23:20.607 -> sau khi tao bin:
+11:23:20.607 -> 290472
+11:23:20.607 -> -100
+11:23:20.607 -> sau khi tao count:
+11:23:20.607 -> 290372
+11:23:20.607 -> -200
+11:23:20.607 -> sau khi tao mutex
+11:23:20.607 -> 289872
+11:23:20.607 -> -700
+11:23:20.607 -> 285000
+11:23:20.607 -> -5572
+11:23:20.607 -> Philosopher 0 took chopstick 0282564
+11:23:20.654 -> 277692280128
+11:23:20.654 -> 
+11:23:20.654 -> 
+11:23:20.654 -> -12880-
+11:23:20.654 -> 27769212880
+11:23:20.654 -> -12880
+11:23:20.654 -> 
+11:23:20.654 -> Philosopher 3 took chopstick 3Philosopher 1 took chopstick 1-
+11:23:20.654 -> 12880
+11:23:20.654 -> 
+11:23:20.654 -> Philosopher 2 took chopstick 2
+11:23:20.654 -> Philosopher 3 took chopstick 4
+11:23:20.654 -> Philosopher 3 is eating
+11:23:20.749 -> Philosopher 3 returned chopstick 4
+11:23:20.749 -> Philosopher 2 took chopstick 3
+11:23:20.749 -> Philosopher 2 is eating
+11:23:20.749 -> Philosopher 3 returned chopstick 3
+11:23:20.844 -> Philosopher 2 returned chopstick 3
+11:23:20.844 -> Philosopher 1 took chopstick 2
+11:23:20.844 -> Philosopher 1 is eating
+11:23:20.844 -> Philosopher 2 returned chopstick 2
+11:23:20.939 -> Philosopher 1 returned chopstick 2
+11:23:20.939 -> Philosopher 0 took chopstick 1
+11:23:20.939 -> Philosopher 0 is eating
+11:23:20.939 -> Philosopher 1 returned chopstick 1
+11:23:21.033 -> Philosopher 0 returned chopstick 1
+11:23:21.033 -> Philosopher 4 took chopstick 4
+11:23:21.033 -> Philosopher 0 returned chopstick 0
+11:23:21.033 -> Philosopher 4 took chopstick 0
+11:23:21.033 -> Philosopher 4 is eating
+11:23:21.129 -> Philosopher 4 returned chopstick 0
+11:23:21.177 -> Philosopher 4 returned chopstick 4
+11:23:21.177 -> 12880
+11:23:21.177 -> 277692
+11:23:21.177 -> Time end: 1565(tick)
+11:23:21.177 -> Done! No deadlock occurred!
