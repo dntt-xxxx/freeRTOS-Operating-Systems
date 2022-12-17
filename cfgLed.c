@@ -9,3 +9,4 @@
 	GPIOB,
 	GPIO_PIN_6
 };
+// this line adding on feature/rebase branch
